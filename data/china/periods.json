@@ -1,0 +1,1610 @@
+[
+  {
+    "id": "cn_xia_shang_zhou",
+    "country": "CN",
+    "type": "era",
+    "name": "Hạ – Thương – Chu (khái quát)",
+    "startYear": -2070,
+    "endYear": -256,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "society",
+      "culture",
+      "politics"
+    ],
+    "summary": "Các triều đại cổ đại đặt nền tảng văn minh và tổ chức nhà nước ở Trung Hoa cổ.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_qin",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Tần",
+    "startYear": -221,
+    "endYear": -206,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "law",
+      "military"
+    ],
+    "summary": "Thống nhất Trung Hoa, cải cách hành chính và luật pháp.",
+    "content": {
+      "events": [
+        {
+          "title": "Thống nhất Trung Hoa (221 TCN)",
+          "detail": "Thiết lập chính quyền trung ương tập quyền."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Tần Thủy Hoàng (259–210 TCN)",
+          "detail": "Hoàng đế đầu tiên thống nhất Trung Hoa; cải cách hành chính, luật pháp."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_han",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Hán",
+    "startYear": -206,
+    "endYear": 220,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "economy",
+      "culture"
+    ],
+    "summary": "Triều đại dài và có ảnh hưởng lớn, củng cố nhà nước và văn hóa.",
+    "content": {
+      "events": [
+        {
+          "title": "Cục diện Đông Hán cuối suy yếu",
+          "detail": "Triều đình suy yếu, cát cứ nổi lên; hình thành tiền đề cho Tam Quốc."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Tào Tháo (155–220)",
+          "detail": "Nhà quân sự, chính trị thời Đông Hán cuối; đặt nền cho thế lực Ngụy trước thời Tam Quốc."
+        },
+        {
+          "title": "Lưu Bang – Hán Cao Tổ (256–195 TCN)",
+          "detail": "Người sáng lập nhà Hán."
+        },
+        {
+          "title": "Hán Vũ Đế (156–87 TCN)",
+          "detail": "Hoàng đế tiêu biểu thời Hán; mở rộng ảnh hưởng và củng cố nhà nước."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_three_kingdoms",
+    "country": "CN",
+    "type": "period",
+    "name": "Tam Quốc",
+    "startYear": 220,
+    "endYear": 280,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "military",
+      "politics"
+    ],
+    "summary": "Giai đoạn phân liệt với các thế lực lớn cạnh tranh.",
+    "content": {
+      "events": [
+        {
+          "title": "Cục diện Tam Quốc hình thành",
+          "detail": "Các thế lực Ngụy–Thục–Ngô cạnh tranh và phân chia quyền lực."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Lưu Bị (161–223)",
+          "detail": "Một trong các thế lực lớn thời Tam Quốc (Thục)."
+        },
+        {
+          "title": "Tôn Quyền (182–252)",
+          "detail": "Lãnh đạo Đông Ngô thời Tam Quốc."
+        },
+        {
+          "title": "Gia Cát Lượng (181–234)",
+          "detail": "Mưu sĩ nổi tiếng của Thục Hán."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_jin",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Tấn",
+    "startYear": 266,
+    "endYear": 420,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "Thời kỳ thống nhất ngắn và sau đó biến động.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "cn_southern_northern",
+    "country": "CN",
+    "type": "period",
+    "name": "Nam – Bắc triều",
+    "startYear": 420,
+    "endYear": 589,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "culture",
+      "religion"
+    ],
+    "summary": "Giai đoạn chia cắt lâu dài; giao lưu văn hóa mạnh.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_sui",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Tùy",
+    "startYear": 581,
+    "endYear": 618,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "economy"
+    ],
+    "summary": "Thống nhất lại đất nước sau phân liệt.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Tùy Văn Đế (541–604)",
+          "detail": "Người thống nhất lại Trung Hoa, đặt nền cho thời kỳ sau."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_tang",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Đường",
+    "startYear": 618,
+    "endYear": 907,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "culture",
+      "economy",
+      "diplomacy"
+    ],
+    "summary": "Thời kỳ thịnh trị, ảnh hưởng lớn đến khu vực.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Đường Thái Tông (599–649)",
+          "detail": "Hoàng đế tiêu biểu thời thịnh trị nhà Đường (Trinh Quán)."
+        },
+        {
+          "title": "Võ Tắc Thiên (624–705)",
+          "detail": "Nữ hoàng duy nhất làm hoàng đế; nhân vật nổi bật thời Đường."
+        },
+        {
+          "title": "Đường Huyền Tông (685–762)",
+          "detail": "Giai đoạn thịnh và suy; bối cảnh nhiều biến động."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_five_dynasties",
+    "country": "CN",
+    "type": "period",
+    "name": "Ngũ Đại Thập Quốc",
+    "startYear": 907,
+    "endYear": 960,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "Thời kỳ phân liệt sau Đường.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_song",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Tống",
+    "startYear": 960,
+    "endYear": 1279,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "economy",
+      "science_tech",
+      "culture"
+    ],
+    "summary": "Phát triển mạnh kinh tế và khoa học kỹ thuật.",
+    "content": {
+      "events": [
+        {
+          "title": "Cải cách của Vương An Thạch",
+          "detail": "Chính sách cải cách kinh tế–xã hội thời Bắc Tống."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Tống Thái Tổ (927–976)",
+          "detail": "Người sáng lập nhà Tống."
+        },
+        {
+          "title": "Vương An Thạch (1021–1086)",
+          "detail": "Nhà cải cách, nổi bật với biến pháp thời Bắc Tống."
+        },
+        {
+          "title": "Tô Đông Pha (1037–1101)",
+          "detail": "Danh sĩ, nhà văn hóa thời Tống."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": true,
+    "notes": "",
+    "places": [
+      {
+        "name": "Khai Phong",
+        "lat": 34.7973,
+        "lng": 114.3076,
+        "note": "Bắc Tống (kinh đô)"
+      },
+      {
+        "name": "Hàng Châu",
+        "lat": 30.2741,
+        "lng": 120.1551,
+        "note": "Nam Tống (kinh đô)"
+      }
+    ]
+  },
+  {
+    "id": "cn_yuan",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Nguyên",
+    "startYear": 1271,
+    "endYear": 1368,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "military"
+    ],
+    "summary": "Triều đại do người Mông Cổ lập, ảnh hưởng rộng.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Hốt Tất Liệt (1215–1294)",
+          "detail": "Hoàng đế lập nhà Nguyên, mở rộng quản trị đế chế."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_ming",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Minh",
+    "startYear": 1368,
+    "endYear": 1644,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "economy",
+      "culture"
+    ],
+    "summary": "Giai đoạn phục hưng và phát triển thủ công – thương mại.",
+    "content": {
+      "events": [
+        {
+          "title": "Các chuyến hải hành của Trịnh Hòa",
+          "detail": "Mở rộng giao lưu hàng hải và ngoại giao thời Minh."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Chu Nguyên Chương – Minh Thái Tổ (1328–1398)",
+          "detail": "Người sáng lập nhà Minh."
+        },
+        {
+          "title": "Vĩnh Lạc Đế (1360–1424)",
+          "detail": "Hoàng đế nổi bật thời Minh; mở rộng ảnh hưởng và dự án lớn."
+        },
+        {
+          "title": "Trịnh Hòa (1371–1433/35)",
+          "detail": "Đô đốc chỉ huy các chuyến hải hành thời Minh."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_qing",
+    "country": "CN",
+    "type": "dynasty",
+    "name": "Nhà Thanh",
+    "startYear": 1636,
+    "endYear": 1912,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "society"
+    ],
+    "summary": "Triều đại cuối của chế độ quân chủ; nhiều biến động cận đại.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Khang Hy (1654–1722)",
+          "detail": "Hoàng đế tiêu biểu thời Thanh."
+        },
+        {
+          "title": "Càn Long (1711–1799)",
+          "detail": "Hoàng đế nổi bật; thời kỳ mở rộng và quản trị đế quốc."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_republic",
+    "country": "CN",
+    "type": "period",
+    "name": "Trung Hoa Dân Quốc",
+    "startYear": 1912,
+    "endYear": 1949,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics",
+      "military"
+    ],
+    "summary": "Giai đoạn cộng hòa với nhiều biến động chính trị – xã hội.",
+    "content": {
+      "events": [
+        {
+          "title": "Cách mạng Tân Hợi (1911)",
+          "detail": "Chuyển đổi từ quân chủ sang cộng hòa, mở đường cho Dân Quốc."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Tôn Trung Sơn (1866–1925)",
+          "detail": "Nhà cách mạng; gắn với sự hình thành Trung Hoa Dân Quốc."
+        },
+        {
+          "title": "Tưởng Giới Thạch (1887–1975)",
+          "detail": "Nhân vật chính trị – quân sự nổi bật giai đoạn Dân Quốc."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_prc",
+    "country": "CN",
+    "type": "period",
+    "name": "Cộng hòa Nhân dân Trung Hoa",
+    "startYear": 1949,
+    "endYear": 2025,
+    "eraLabel": "",
+    "grades": [
+      "L10",
+      "L12"
+    ],
+    "topics": [
+      "politics",
+      "economy",
+      "society"
+    ],
+    "summary": "Giai đoạn hiện đại, phát triển và cải cách theo từng thời kỳ.",
+    "content": {
+      "events": [
+        {
+          "title": "Cải cách mở cửa",
+          "detail": "Chuyển đổi chính sách kinh tế, thúc đẩy hội nhập và phát triển."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Mao Trạch Đông (1893–1976)",
+          "detail": "Lãnh đạo thành lập CHND Trung Hoa (1949) và giai đoạn đầu."
+        },
+        {
+          "title": "Đặng Tiểu Bình (1904–1997)",
+          "detail": "Nhân vật nổi bật giai đoạn cải cách mở cửa."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "cn_todo_016",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 16",
+    "startYear": 2016,
+    "endYear": 2016,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_017",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 17",
+    "startYear": 2017,
+    "endYear": 2017,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_018",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 18",
+    "startYear": 2018,
+    "endYear": 2018,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_019",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 19",
+    "startYear": 2019,
+    "endYear": 2019,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_020",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 20",
+    "startYear": 2020,
+    "endYear": 2020,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_021",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 21",
+    "startYear": 2021,
+    "endYear": 2021,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_022",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 22",
+    "startYear": 2022,
+    "endYear": 2022,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_023",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 23",
+    "startYear": 2023,
+    "endYear": 2023,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_024",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 24",
+    "startYear": 2024,
+    "endYear": 2024,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_025",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 25",
+    "startYear": 2025,
+    "endYear": 2025,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_026",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 26",
+    "startYear": 2026,
+    "endYear": 2026,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_027",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 27",
+    "startYear": 2027,
+    "endYear": 2027,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_028",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 28",
+    "startYear": 2028,
+    "endYear": 2028,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_029",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 29",
+    "startYear": 2029,
+    "endYear": 2029,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_030",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 30",
+    "startYear": 2030,
+    "endYear": 2030,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_031",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 31",
+    "startYear": 2031,
+    "endYear": 2031,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_032",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 32",
+    "startYear": 2032,
+    "endYear": 2032,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_033",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 33",
+    "startYear": 2033,
+    "endYear": 2033,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_034",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 34",
+    "startYear": 2034,
+    "endYear": 2034,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_035",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 35",
+    "startYear": 2035,
+    "endYear": 2035,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_036",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 36",
+    "startYear": 2036,
+    "endYear": 2036,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_037",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 37",
+    "startYear": 2037,
+    "endYear": 2037,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_038",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 38",
+    "startYear": 2038,
+    "endYear": 2038,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_039",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 39",
+    "startYear": 2039,
+    "endYear": 2039,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_040",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 40",
+    "startYear": 2040,
+    "endYear": 2040,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_041",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 41",
+    "startYear": 2041,
+    "endYear": 2041,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_042",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 42",
+    "startYear": 2042,
+    "endYear": 2042,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_043",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 43",
+    "startYear": 2043,
+    "endYear": 2043,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_044",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 44",
+    "startYear": 2044,
+    "endYear": 2044,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_045",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 45",
+    "startYear": 2045,
+    "endYear": 2045,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_046",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 46",
+    "startYear": 2046,
+    "endYear": 2046,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_047",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 47",
+    "startYear": 2047,
+    "endYear": 2047,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_048",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 48",
+    "startYear": 2048,
+    "endYear": 2048,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_049",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 49",
+    "startYear": 2049,
+    "endYear": 2049,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_050",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 50",
+    "startYear": 2050,
+    "endYear": 2050,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_051",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 51",
+    "startYear": 2051,
+    "endYear": 2051,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_052",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 52",
+    "startYear": 2052,
+    "endYear": 2052,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_053",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 53",
+    "startYear": 2053,
+    "endYear": 2053,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_054",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 54",
+    "startYear": 2054,
+    "endYear": 2054,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "cn_todo_055",
+    "country": "CN",
+    "type": "period",
+    "name": "TODO giai đoạn 55",
+    "startYear": 2055,
+    "endYear": 2055,
+    "eraLabel": "",
+    "grades": [
+      "L10"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "world_history_ref"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  }
+]

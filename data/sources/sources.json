@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "id": "sgk_vn_l6",
+      "name": "SGK Lịch sử 6 (VN)",
+      "type": "textbook",
+      "publisher": "Bộ GD&ĐT",
+      "notes": "Bạn điền đúng bộ sách/ấn bản bạn dùng."
+    },
+    {
+      "id": "sgk_vn_l7",
+      "name": "SGK Lịch sử 7 (VN)",
+      "type": "textbook",
+      "publisher": "Bộ GD&ĐT",
+      "notes": "Bạn điền đúng bộ sách/ấn bản bạn dùng."
+    },
+    {
+      "id": "sgk_vn_l8",
+      "name": "SGK Lịch sử 8 (VN)",
+      "type": "textbook",
+      "publisher": "Bộ GD&ĐT",
+      "notes": ""
+    },
+    {
+      "id": "sgk_vn_l9",
+      "name": "SGK Lịch sử 9 (VN)",
+      "type": "textbook",
+      "publisher": "Bộ GD&ĐT",
+      "notes": ""
+    },
+    {
+      "id": "world_history_ref",
+      "name": "Tài liệu tham khảo lịch sử thế giới (placeholder)",
+      "type": "reference",
+      "publisher": "—",
+      "notes": "Thay bằng nguồn thật (sách/website uy tín)."
+    }
+  ]
+}

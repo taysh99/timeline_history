@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "vn_van_lang_au_lac",
+    "country": "VN",
+    "type": "era",
+    "name": "Văn Lang – Âu Lạc",
+    "startYear": -700,
+    "endYear": -111,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "society",
+      "culture"
+    ],
+    "summary": "Thời kỳ hình thành nhà nước sơ khai ở vùng đất Việt cổ, đặt nền tảng văn hóa – xã hội.",
+    "content": {
+      "events": [
+        {
+          "title": "Hình thành nhà nước sơ khai",
+          "detail": "Bối cảnh các cộng đồng cư dân phát triển và tổ chức xã hội ngày càng chặt chẽ."
+        }
+      ],
+      "figures": [],
+      "achievements": [
+        {
+          "title": "Nền tảng văn hóa bản địa",
+          "detail": "Phong tục, tín ngưỡng và tổ chức cộng đồng tạo nền tảng cho các giai đoạn sau."
+        }
+      ]
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_bac_thuoc_1",
+    "country": "VN",
+    "type": "period",
+    "name": "Bắc thuộc lần I",
+    "startYear": -111,
+    "endYear": 39,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "politics",
+      "society"
+    ],
+    "summary": "Giai đoạn chịu sự cai trị của nhà Hán, bộ máy quận huyện được thiết lập.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Sĩ Nhiếp (137–226)",
+          "detail": "Thái thú Giao Chỉ thời Đông Hán; nhân vật có ghi chép trong sử Trung Hoa."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_hai_ba_trung",
+    "country": "VN",
+    "type": "event",
+    "name": "Khởi nghĩa Hai Bà Trưng",
+    "startYear": 40,
+    "endYear": 43,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "military",
+      "politics"
+    ],
+    "summary": "Cuộc khởi nghĩa chống ách đô hộ, giành quyền tự chủ trong thời gian ngắn.",
+    "content": {
+      "events": [
+        {
+          "title": "Khởi nghĩa bùng nổ",
+          "detail": "Phong trào lan rộng và thiết lập chính quyền tự chủ."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Trưng Trắc",
+          "detail": "Lãnh đạo khởi nghĩa."
+        },
+        {
+          "title": "Trưng Nhị",
+          "detail": "Cùng lãnh đạo khởi nghĩa."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_bac_thuoc_2",
+    "country": "VN",
+    "type": "period",
+    "name": "Bắc thuộc lần II",
+    "startYear": 44,
+    "endYear": 543,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "politics",
+      "society"
+    ],
+    "summary": "Giai đoạn tiếp tục chịu sự đô hộ, xuất hiện nhiều cuộc đấu tranh của người Việt.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_van_xuan",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Tiền Lý – Vạn Xuân",
+    "startYear": 544,
+    "endYear": 602,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "politics",
+      "military",
+      "culture"
+    ],
+    "summary": "Nhà nước Vạn Xuân được dựng lên, khẳng định ý chí độc lập.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Lý Nam Đế",
+          "detail": "Lãnh đạo lập nước Vạn Xuân."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_bac_thuoc_3",
+    "country": "VN",
+    "type": "period",
+    "name": "Bắc thuộc lần III",
+    "startYear": 603,
+    "endYear": 938,
+    "eraLabel": "",
+    "grades": [
+      "L6"
+    ],
+    "topics": [
+      "politics",
+      "society",
+      "culture"
+    ],
+    "summary": "Thời kỳ đô hộ kéo dài cho đến khi giành lại tự chủ đầu thế kỷ X.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Khúc Thừa Dụ (mất 907)",
+          "detail": "Lãnh đạo giành quyền tự chủ ở Tĩnh Hải quân đầu thế kỷ X."
+        },
+        {
+          "title": "Dương Đình Nghệ (mất 937)",
+          "detail": "Tướng lĩnh, đặt nền cho chiến thắng Bạch Đằng 938."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l6"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_ngo",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Thời Ngô",
+    "startYear": 939,
+    "endYear": 965,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "military"
+    ],
+    "summary": "Giai đoạn mở đầu thời kỳ độc lập tự chủ lâu dài sau chiến thắng Bạch Đằng.",
+    "content": {
+      "events": [
+        {
+          "title": "Chiến thắng Bạch Đằng (938)",
+          "detail": "Đánh bại quân Nam Hán, chấm dứt thời kỳ Bắc thuộc."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Ngô Quyền (898–944)",
+          "detail": "Lãnh đạo chiến thắng Bạch Đằng (938), mở đầu thời kỳ độc lập tự chủ lâu dài."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_dinh",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Đinh",
+    "startYear": 968,
+    "endYear": 980,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "law"
+    ],
+    "summary": "Củng cố quốc gia độc lập, đặt nền tảng nhà nước phong kiến tập quyền.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Đinh Bộ Lĩnh (924–979)",
+          "detail": "Thống nhất cát cứ, lập nhà Đinh, đặt quốc hiệu Đại Cồ Việt."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_tien_le",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Tiền Lê",
+    "startYear": 980,
+    "endYear": 1009,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "military",
+      "diplomacy"
+    ],
+    "summary": "Tiếp tục củng cố độc lập và tổ chức quân sự, đối ngoại.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Lê Hoàn (941–1005)",
+          "detail": "Hoàng đế nhà Tiền Lê; củng cố quốc gia và đối phó ngoại xâm."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_ly",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Lý",
+    "startYear": 1009,
+    "endYear": 1225,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "culture",
+      "law"
+    ],
+    "summary": "Triều đại ổn định, phát triển văn hóa (đặc biệt Phật giáo) và luật pháp.",
+    "content": {
+      "events": [
+        {
+          "title": "Dời đô ra Thăng Long (1010)",
+          "detail": "Tạo điều kiện phát triển lâu dài cho kinh đô và quốc gia."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Lý Thái Tổ (974–1028)",
+          "detail": "Sáng lập nhà Lý, dời đô ra Thăng Long (1010)."
+        },
+        {
+          "title": "Lý Thường Kiệt (1019–1105)",
+          "detail": "Danh tướng thời Lý, gắn với phòng tuyến sông Như Nguyệt."
+        },
+        {
+          "title": "Lý Nhân Tông (1066–1127)",
+          "detail": "Triều đại dài; gắn với phát triển giáo dục và văn hóa."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "",
+    "places": [
+      {
+        "name": "Thăng Long (Hà Nội)",
+        "lat": 21.0285,
+        "lng": 105.8542,
+        "note": "Kinh đô"
+      },
+      {
+        "name": "Chùa Một Cột (Hà Nội)",
+        "lat": 21.0358,
+        "lng": 105.8356,
+        "note": "Kiến trúc Phật giáo (thời Lý)"
+      }
+    ]
+  },
+  {
+    "id": "vn_tran",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Trần",
+    "startYear": 1226,
+    "endYear": 1400,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "military",
+      "politics",
+      "culture"
+    ],
+    "summary": "Triều Trần nổi bật với các cuộc kháng chiến chống Nguyên – Mông và phát triển văn hóa.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Trần Hưng Đạo (1228–1300)",
+          "detail": "Quốc công Tiết chế, chỉ huy kháng chiến chống Nguyên–Mông."
+        },
+        {
+          "title": "Trần Nhân Tông (1258–1308)",
+          "detail": "Vua thời kháng chiến; sau gắn với Thiền phái Trúc Lâm."
+        },
+        {
+          "title": "Trần Thánh Tông (1240–1290)",
+          "detail": "Vua thời Trần; góp phần tổ chức kháng chiến."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_ho",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Hồ",
+    "startYear": 1400,
+    "endYear": 1407,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "economy"
+    ],
+    "summary": "Giai đoạn cải cách ngắn, sau đó rơi vào Minh thuộc.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Hồ Quý Ly (1336–1407)",
+          "detail": "Nhân vật cải cách cuối Trần, lập nhà Hồ; nhiều chính sách cải cách."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_minh_thuoc",
+    "country": "VN",
+    "type": "period",
+    "name": "Minh thuộc",
+    "startYear": 1407,
+    "endYear": 1427,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "society"
+    ],
+    "summary": "Thời kỳ bị nhà Minh đô hộ; phong trào đấu tranh giành độc lập bùng nổ.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Lê Lợi (1385–1433)",
+          "detail": "Lãnh tụ khởi nghĩa Lam Sơn, giành độc lập (1427)."
+        },
+        {
+          "title": "Nguyễn Trãi (1380–1442)",
+          "detail": "Mưu sĩ, tác gia; gắn với khởi nghĩa Lam Sơn và chính trị đầu Lê sơ."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_le_so",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Lê sơ",
+    "startYear": 1428,
+    "endYear": 1527,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "law",
+      "economy"
+    ],
+    "summary": "Thời kỳ củng cố quốc gia, hoàn thiện luật pháp và bộ máy nhà nước.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Lê Thánh Tông (1442–1497)",
+          "detail": "Vua tiêu biểu thời Lê sơ; củng cố nhà nước, luật pháp và giáo dục."
+        },
+        {
+          "title": "Thân Nhân Trung (1419–1499)",
+          "detail": "Danh sĩ; gắn với văn hóa – giáo dục thời Lê sơ."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_nam_bac_trieu",
+    "country": "VN",
+    "type": "period",
+    "name": "Nam – Bắc triều",
+    "startYear": 1527,
+    "endYear": 1592,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics",
+      "military"
+    ],
+    "summary": "Giai đoạn nội chiến và phân tranh quyền lực giữa các thế lực.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Nguyễn Bỉnh Khiêm – Trạng Trình (1491–1585)",
+          "detail": "Nhà giáo, nhà tư tưởng, danh sĩ thế kỷ XVI; gắn với bối cảnh Nam–Bắc triều và biến động chính trị."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": true,
+    "notes": "Có thể chồng lấn với các tiểu giai đoạn theo triều/chúa."
+  },
+  {
+    "id": "vn_trinh_nguyen_phan_tranh",
+    "country": "VN",
+    "type": "period",
+    "name": "Trịnh – Nguyễn phân tranh",
+    "startYear": 1627,
+    "endYear": 1775,
+    "eraLabel": "",
+    "grades": [
+      "L7",
+      "L8"
+    ],
+    "topics": [
+      "military",
+      "politics",
+      "society"
+    ],
+    "summary": "Đất nước bị chia cắt Đàng Ngoài – Đàng Trong; chiến sự kéo dài.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Chúa Trịnh Tùng (1550–1623)",
+          "detail": "Nhân vật chính trị đầu thời Trịnh; củng cố quyền lực Đàng Ngoài."
+        },
+        {
+          "title": "Chúa Nguyễn Hoàng (1525–1613)",
+          "detail": "Người đặt nền cho thế lực họ Nguyễn ở Đàng Trong."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "vn_tay_son",
+    "country": "VN",
+    "type": "period",
+    "name": "Phong trào Tây Sơn",
+    "startYear": 1771,
+    "endYear": 1802,
+    "eraLabel": "",
+    "grades": [
+      "L7",
+      "L8"
+    ],
+    "topics": [
+      "military",
+      "politics"
+    ],
+    "summary": "Phong trào khởi nghĩa và thay đổi chính quyền cuối thế kỷ XVIII.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Nguyễn Huệ – Quang Trung (1753–1792)",
+          "detail": "Lãnh tụ Tây Sơn; nổi bật với chiến thắng Ngọc Hồi–Đống Đa (1789)."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_nguyen",
+    "country": "VN",
+    "type": "dynasty",
+    "name": "Nhà Nguyễn",
+    "startYear": 1802,
+    "endYear": 1945,
+    "eraLabel": "",
+    "grades": [
+      "L8",
+      "L9"
+    ],
+    "topics": [
+      "politics",
+      "economy",
+      "society"
+    ],
+    "summary": "Triều đại cuối cùng của Việt Nam; giai đoạn biến động trước và trong thời Pháp xâm lược.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Gia Long – Nguyễn Ánh (1762–1820)",
+          "detail": "Người lập nhà Nguyễn (1802), thống nhất đất nước sau nội chiến."
+        },
+        {
+          "title": "Minh Mạng (1791–1841)",
+          "detail": "Vua nhà Nguyễn; cải cách hành chính, củng cố tập quyền."
+        },
+        {
+          "title": "Tự Đức (1829–1883)",
+          "detail": "Vua thời kỳ Pháp bắt đầu xâm lược; bối cảnh nhiều biến động."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l8",
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": true,
+    "notes": "Thực tế có giai đoạn thuộc Pháp chồng lấn theo quyền lực."
+  },
+  {
+    "id": "vn_phap_xam_luoc",
+    "country": "VN",
+    "type": "period",
+    "name": "Pháp xâm lược và đặt ách thống trị",
+    "startYear": 1858,
+    "endYear": 1884,
+    "eraLabel": "",
+    "grades": [
+      "L8"
+    ],
+    "topics": [
+      "military",
+      "diplomacy",
+      "politics"
+    ],
+    "summary": "Giai đoạn quân Pháp tiến hành xâm lược, triều đình ký các hiệp ước dẫn tới mất chủ quyền.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Nguyễn Tri Phương (1800–1873)",
+          "detail": "Danh tướng chống Pháp ở Đà Nẵng và Gia Định."
+        },
+        {
+          "title": "Hoàng Diệu (1829–1882)",
+          "detail": "Tổng đốc Hà Ninh; gắn với cuộc phòng thủ Hà Nội."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l8"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "vn_thuoc_phap",
+    "country": "VN",
+    "type": "period",
+    "name": "Việt Nam dưới thời thuộc Pháp",
+    "startYear": 1884,
+    "endYear": 1945,
+    "eraLabel": "",
+    "grades": [
+      "L8",
+      "L9"
+    ],
+    "topics": [
+      "society",
+      "economy",
+      "politics"
+    ],
+    "summary": "Giai đoạn thuộc địa với biến đổi kinh tế – xã hội và các phong trào yêu nước.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Phan Bội Châu (1867–1940)",
+          "detail": "Nhà cách mạng; phong trào Đông Du, vận động giải phóng dân tộc."
+        },
+        {
+          "title": "Phan Châu Trinh (1872–1926)",
+          "detail": "Nhà yêu nước; chủ trương cải cách, khai dân trí."
+        },
+        {
+          "title": "Nguyễn Ái Quốc – Hồ Chí Minh (1890–1969)",
+          "detail": "Lãnh tụ cách mạng; hoạt động giải phóng dân tộc đầu thế kỷ XX."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l8",
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "vn_cach_mang_1945",
+    "country": "VN",
+    "type": "event",
+    "name": "Cách mạng Tháng Tám và Tuyên ngôn Độc lập",
+    "startYear": 1945,
+    "endYear": 1945,
+    "eraLabel": "",
+    "grades": [
+      "L9"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "Sự kiện giành chính quyền và khai sinh nhà nước Việt Nam mới năm 1945.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Hồ Chí Minh (1890–1969)",
+          "detail": "Lãnh đạo phong trào độc lập; gắn với Tuyên ngôn Độc lập 1945."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_khang_chien_chong_phap",
+    "country": "VN",
+    "type": "war",
+    "name": "Kháng chiến chống Pháp",
+    "startYear": 1946,
+    "endYear": 1954,
+    "eraLabel": "",
+    "grades": [
+      "L9"
+    ],
+    "topics": [
+      "military",
+      "politics",
+      "diplomacy"
+    ],
+    "summary": "Cuộc kháng chiến kéo dài kết thúc với các hiệp định năm 1954.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Võ Nguyên Giáp (1911–2013)",
+          "detail": "Chỉ huy quân sự; gắn với chiến dịch Điện Biên Phủ."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_chia_cat",
+    "country": "VN",
+    "type": "period",
+    "name": "Giai đoạn chia cắt hai miền",
+    "startYear": 1954,
+    "endYear": 1975,
+    "eraLabel": "",
+    "grades": [
+      "L9"
+    ],
+    "topics": [
+      "politics",
+      "military",
+      "diplomacy"
+    ],
+    "summary": "Bối cảnh đất nước bị chia cắt; xung đột và đối đầu kéo dài.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "vn_khang_chien_chong_my",
+    "country": "VN",
+    "type": "war",
+    "name": "Kháng chiến chống Mỹ",
+    "startYear": 1954,
+    "endYear": 1975,
+    "eraLabel": "",
+    "grades": [
+      "L9"
+    ],
+    "topics": [
+      "military",
+      "politics"
+    ],
+    "summary": "Cuộc chiến tranh kết thúc năm 1975, dẫn đến thống nhất đất nước.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Võ Nguyên Giáp (1911–2013)",
+          "detail": "Nhân vật quân sự quan trọng trong giai đoạn chiến tranh."
+        },
+        {
+          "title": "Lê Duẩn (1907–1986)",
+          "detail": "Nhà lãnh đạo chính trị nổi bật trong giai đoạn 1954–1975."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": true,
+    "notes": ""
+  },
+  {
+    "id": "vn_thong_nhat",
+    "country": "VN",
+    "type": "period",
+    "name": "Việt Nam thống nhất",
+    "startYear": 1975,
+    "endYear": 1985,
+    "eraLabel": "",
+    "grades": [
+      "L9"
+    ],
+    "topics": [
+      "society",
+      "economy",
+      "politics"
+    ],
+    "summary": "Giai đoạn sau thống nhất, tập trung tái thiết và ổn định.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_doi_moi",
+    "country": "VN",
+    "type": "period",
+    "name": "Đổi mới",
+    "startYear": 1986,
+    "endYear": 2025,
+    "eraLabel": "",
+    "grades": [
+      "L9",
+      "L12"
+    ],
+    "topics": [
+      "economy",
+      "society",
+      "diplomacy"
+    ],
+    "summary": "Giai đoạn cải cách kinh tế – xã hội, hội nhập quốc tế.",
+    "content": {
+      "events": [],
+      "figures": [
+        {
+          "title": "Nguyễn Văn Linh (1915–1998)",
+          "detail": "Tổng Bí thư gắn với giai đoạn khởi xướng Đổi mới (từ 1986)."
+        }
+      ],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l9"
+    ],
+    "overlapAllowed": false,
+    "notes": ""
+  },
+  {
+    "id": "vn_todo_027",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 27",
+    "startYear": 2027,
+    "endYear": 2027,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_028",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 28",
+    "startYear": 2028,
+    "endYear": 2028,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_029",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 29",
+    "startYear": 2029,
+    "endYear": 2029,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_030",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 30",
+    "startYear": 2030,
+    "endYear": 2030,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_031",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 31",
+    "startYear": 2031,
+    "endYear": 2031,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_032",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 32",
+    "startYear": 2032,
+    "endYear": 2032,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_033",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 33",
+    "startYear": 2033,
+    "endYear": 2033,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_034",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 34",
+    "startYear": 2034,
+    "endYear": 2034,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_035",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 35",
+    "startYear": 2035,
+    "endYear": 2035,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_036",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 36",
+    "startYear": 2036,
+    "endYear": 2036,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_037",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 37",
+    "startYear": 2037,
+    "endYear": 2037,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_038",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 38",
+    "startYear": 2038,
+    "endYear": 2038,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_039",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 39",
+    "startYear": 2039,
+    "endYear": 2039,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_040",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 40",
+    "startYear": 2040,
+    "endYear": 2040,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_041",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 41",
+    "startYear": 2041,
+    "endYear": 2041,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_042",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 42",
+    "startYear": 2042,
+    "endYear": 2042,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_043",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 43",
+    "startYear": 2043,
+    "endYear": 2043,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_044",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 44",
+    "startYear": 2044,
+    "endYear": 2044,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_045",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 45",
+    "startYear": 2045,
+    "endYear": 2045,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_046",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 46",
+    "startYear": 2046,
+    "endYear": 2046,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_047",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 47",
+    "startYear": 2047,
+    "endYear": 2047,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_048",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 48",
+    "startYear": 2048,
+    "endYear": 2048,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_049",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 49",
+    "startYear": 2049,
+    "endYear": 2049,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_050",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 50",
+    "startYear": 2050,
+    "endYear": 2050,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_051",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 51",
+    "startYear": 2051,
+    "endYear": 2051,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_052",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 52",
+    "startYear": 2052,
+    "endYear": 2052,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_053",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 53",
+    "startYear": 2053,
+    "endYear": 2053,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_054",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 54",
+    "startYear": 2054,
+    "endYear": 2054,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  },
+  {
+    "id": "vn_todo_055",
+    "country": "VN",
+    "type": "period",
+    "name": "TODO giai đoạn 55",
+    "startYear": 2055,
+    "endYear": 2055,
+    "eraLabel": "",
+    "grades": [
+      "L7"
+    ],
+    "topics": [
+      "politics"
+    ],
+    "summary": "TODO: Điền mô tả theo SGK/nguồn uy tín. Mục này là placeholder để bạn nhanh chóng có bộ khung 100+ mục.",
+    "content": {
+      "events": [],
+      "figures": [],
+      "achievements": []
+    },
+    "sourceIds": [
+      "sgk_vn_l7"
+    ],
+    "overlapAllowed": false,
+    "notes": "PLACEHOLDER_TODO"
+  }
+]
