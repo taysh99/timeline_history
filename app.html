@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>History Timeline (VN + CN) — Historical Maps</title>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    :root{--bg:#f3f4f6;--card:#fff;--text:#0f172a;--muted:#64748b;--border:#e5e7eb;--shadow:0 10px 30px rgba(0,0,0,.08);--radius:16px}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+    .container{max-width:1200px;margin:0 auto;padding:18px}
+    .header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    h1{margin:0;letter-spacing:-.02em}
+    .sub{color:var(--muted);font-size:14px;margin-top:6px}
+    .row{display:flex;gap:12px;flex-wrap:wrap}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px}
+    .panel{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:14px}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    @media (min-width:980px){.grid{grid-template-columns:1fr 1fr}}
+    .controls{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}
+    @media (min-width:980px){.controls{grid-template-columns:1.2fr 1fr;align-items:stretch}}
+    .label{font-weight:700;font-size:13px}
+    .muted{color:var(--muted)}
+    .chipRow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+    .chip{display:inline-flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;border:1px solid var(--border);background:#f8fafc;font-size:12px;font-weight:700;user-select:none;cursor:pointer}
+    .chip.on{background:#eef2ff;border-color:#c7d2fe}
+    .chip.badge{cursor:default;background:#f1f5f9}
+    .pill{display:inline-block;padding:4px 10px;border-radius:999px;background:#eef2ff;font-size:12px;font-weight:800;border:1px solid #c7d2fe}
+    .input{width:100%;box-sizing:border-box;border:1px solid var(--border);border-radius:12px;padding:10px 12px;font-size:14px;outline:none;background:#fff}
+    .input:focus{border-color:#a5b4fc;box-shadow:0 0 0 3px rgba(165,180,252,.35)}
+    .btn{border:1px solid var(--border);background:#fff;border-radius:12px;padding:9px 12px;font-weight:800;cursor:pointer}
+    .btn:hover{background:#f8fafc}
+    .section{margin-top:12px}
+    .sectionTitle{font-weight:900;margin-bottom:6px}
+    .item{padding:6px 0;cursor:pointer}
+    .item:hover{text-decoration:underline}
+    .split{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px}
+    @media (min-width:980px){.split{grid-template-columns:1fr 1fr}}
+    .compareBox{border:1px dashed #cbd5e1;border-radius:14px;padding:12px;background:#fbfdff;margin-top:10px}
+    .compareTitle{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+    .kpiRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .kpi{border:1px solid var(--border);background:#fff;border-radius:14px;padding:10px 12px;min-width:180px}
+    .kpi .num{font-size:18px;font-weight:1000}
+    .kpi .cap{color:var(--muted);font-size:12px;margin-top:2px}
+    .searchWrap{position:relative}
+    .searchDrop{position:absolute;left:0;right:0;top:44px;background:#fff;border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow);max-height:320px;overflow:auto;z-index:1000}
+    .searchItem{padding:10px 12px;border-bottom:1px solid #f1f5f9;cursor:pointer}
+    .searchItem:hover{background:#f8fafc}
+    .searchItem:last-child{border-bottom:none}
+    .searchName{font-weight:900}
+    .searchMeta{color:var(--muted);font-size:12px;margin-top:3px}
+    .modalBg{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:16px;z-index:2000}
+    .modal{background:#fff;border-radius:16px;max-width:900px;width:100%;padding:16px}
+    .modal h3{margin:0 0 8px}
+    .hr{height:1px;background:#eef2f7;margin:12px 0}
+    .warn{color:#b91c1c;font-weight:800}
+    code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+  </style>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel" data-presets="env,react">
+function safeArr(x){ return Array.isArray(x) ? x : []; }
+function safeStr(x){ return (typeof x === "string") ? x : ""; }
+function hasTodo(p){ return p && p.notes === "PLACEHOLDER_TODO"; }
+
+function getContentItems(p){
+  const c = p && p.content ? p.content : {};
+  return { events: safeArr(c.events), figures: safeArr(c.figures), achievements: safeArr(c.achievements) };
+}
+
+function periodMatchesYear(p, year){
+  return p && Number.isInteger(p.startYear) && Number.isInteger(p.endYear) && year >= p.startYear && year <= p.endYear;
+}
+
+function periodHasGrades(p, selectedGrades){
+  const g = safeArr(p && p.grades);
+  if (selectedGrades.size === 0) return true;
+  for (const x of g) if (selectedGrades.has(x)) return true;
+  return false;
+}
+
+function mkSearchText(p){
+  const c = getContentItems(p);
+  const parts = [
+    safeStr(p.name),
+    safeStr(p.summary),
+    safeArr(p.topics).join(" "),
+    safeArr(p.grades).join(" "),
+    c.events.map(x => safeStr(x.title)+" "+safeStr(x.detail)).join(" "),
+    c.figures.map(x => safeStr(x.title)+" "+safeStr(x.detail)).join(" "),
+    c.achievements.map(x => safeStr(x.title)+" "+safeStr(x.detail)).join(" "),
+  ];
+  return parts.join(" ").toLowerCase();
+}
+
+function scoreMatch(p, q){
+  const name = safeStr(p.name).toLowerCase();
+  const summary = safeStr(p.summary).toLowerCase();
+  let s = 0;
+  if (name.includes(q)) s += 50;
+  if (summary.includes(q)) s += 20;
+  const text = p.__searchText || "";
+  if (text.includes(q)) s += 10;
+  if (!hasTodo(p)) s += 5;
+  return s;
+}
+
+function pickHighlights(periods){
+  const out = [];
+  for (const p of periods){
+    const c = getContentItems(p);
+    for (const e of c.events) if (out.length < 3) out.push("Sự kiện: " + e.title);
+    for (const f of c.figures) if (out.length < 3) out.push("Nhân vật: " + f.title);
+    for (const a of c.achievements) if (out.length < 3) out.push("Thành tựu: " + a.title);
+    if (out.length >= 3) break;
+  }
+  return out;
+}
+
+function buildCompareNotes(vnPeriods, cnPeriods){
+  const vnNames = vnPeriods.map(p => p.name).join(", ") || "—";
+  const cnNames = cnPeriods.map(p => p.name).join(", ") || "—";
+  const vnHL = pickHighlights(vnPeriods);
+  const cnHL = pickHighlights(cnPeriods);
+  return {
+    vnNames, cnNames,
+    vnHL: vnHL.length ? vnHL : ["(Chưa có mục nổi bật trong dataset cho năm này)"],
+    cnHL: cnHL.length ? cnHL : ["(Chưa có mục nổi bật trong dataset cho năm này)"],
+  };
+}
+
+function GradeChips({ selectedGrades, setSelectedGrades }){
+  const grades = ["L6","L7","L8","L9","L10","L11","L12"];
+  function toggle(g){
+    const next = new Set(Array.from(selectedGrades));
+    if (next.has(g)) next.delete(g); else next.add(g);
+    setSelectedGrades(next);
+  }
+  function setAll(){ setSelectedGrades(new Set()); }
+  return (
+    <div>
+      <div className="compareTitle">
+        <div className="label">Filter theo lớp</div>
+        <button className="btn" onClick={setAll} title="Bỏ chọn để hiện tất cả">Hiện tất cả</button>
+      </div>
+      <div className="chipRow">
+        {grades.map(g => (
+          <div key={g} className={"chip " + (selectedGrades.has(g) ? "on" : "")} onClick={() => toggle(g)}>{g}</div>
+        ))}
+        <div className="chip badge">{selectedGrades.size === 0 ? "All grades" : ("Selected: " + selectedGrades.size)}</div>
+      </div>
+    </div>
+  );
+}
+
+function SearchBox({ allPeriods, onJump, hidePlaceholders, selectedGrades }){
+  const [q, setQ] = React.useState("");
+  const [open, setOpen] = React.useState(false);
+
+  const results = React.useMemo(() => {
+    const query = q.trim().toLowerCase();
+    if (query.length < 2) return [];
+    const base = allPeriods
+      .filter(p => (hidePlaceholders ? !hasTodo(p) : true))
+      .filter(p => periodHasGrades(p, selectedGrades));
+    const scored = [];
+    for (const p of base){
+      const s = scoreMatch(p, query);
+      if (s > 0) scored.push({ p, s });
+    }
+    scored.sort((a,b) => b.s - a.s);
+    return scored.slice(0, 10).map(x => x.p);
+  }, [q, allPeriods, hidePlaceholders, selectedGrades]);
+
+  function choose(p){
+    setQ(""); setOpen(false); onJump(p);
+  }
+
+  return (
+    <div className="searchWrap">
+      <div className="label">Search (giai đoạn / sự kiện / nhân vật)</div>
+      <input className="input" value={q} placeholder='Ví dụ: "Ngô Quyền", "Trạng Trình", "Tào Tháo"...'
+        onChange={(e) => { setQ(e.target.value); setOpen(true); }}
+        onFocus={() => setOpen(true)}
+        onBlur={() => setTimeout(() => setOpen(false), 120)}
+      />
+      {open && results.length > 0 && (
+        <div className="searchDrop">
+          {results.map(p => (
+            <div key={p.id} className="searchItem" onMouseDown={() => choose(p)}>
+              <div className="searchName">{p.country === "VN" ? "🇻🇳" : "🇨🇳"} {p.name} <span className="muted">({p.startYear}–{p.endYear})</span></div>
+              <div className="searchMeta">{safeArr(p.grades).join(", ")} • {safeArr(p.topics).slice(0,4).join(", ")}</div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function CountryPanel({ title, periods, onOpenDetail }){
+  return (
+    <div className="panel">
+      <h2 style={{ margin:"0 0 8px" }}>{title}</h2>
+      {periods.length === 0 ? (<div className="muted">Không có giai đoạn phù hợp filter / năm này.</div>) : null}
+      {periods.map(p => {
+        const c = getContentItems(p);
+        return (
+          <div key={p.id} style={{ marginTop: 12 }}>
+            <div className="pill">{p.name} ({p.startYear}–{p.endYear})</div>
+            <div className="muted" style={{ marginTop: 6 }}>{p.summary}</div>
+            <div className="chipRow" style={{ marginTop: 8 }}>
+              {safeArr(p.grades).map(g => <div className="chip badge" key={p.id+"_g_"+g}>{g}</div>)}
+              {safeArr(p.topics).slice(0,4).map(t => <div className="chip badge" key={p.id+"_t_"+t}>{t}</div>)}
+              {p.map && p.map.src ? <div className="chip badge">🗺️ map</div> : null}
+            </div>
+
+            <div className="section">
+              <div className="sectionTitle">Sự kiện</div>
+              {safeArr(c.events).length === 0 ? <div className="muted">—</div> : null}
+              {safeArr(c.events).slice(0,4).map((e,i) => (
+                <div className="item" key={p.id+"_e_"+i} onClick={() => onOpenDetail(e.title, e.detail, p)}>• {e.title}</div>
+              ))}
+            </div>
+
+            <div className="section">
+              <div className="sectionTitle">Nhân vật</div>
+              {safeArr(c.figures).length === 0 ? <div className="muted">—</div> : null}
+              {safeArr(c.figures).slice(0,4).map((f,i) => (
+                <div className="item" key={p.id+"_f_"+i} onClick={() => onOpenDetail(f.title, f.detail, p)}>• {f.title}</div>
+              ))}
+            </div>
+
+            <div className="section">
+              <div className="sectionTitle">Thành tựu</div>
+              {safeArr(c.achievements).length === 0 ? <div className="muted">—</div> : null}
+              {safeArr(c.achievements).slice(0,4).map((a,i) => (
+                <div className="item" key={p.id+"_a_"+i} onClick={() => onOpenDetail(a.title, a.detail, p)}>• {a.title}</div>
+              ))}
+            </div>
+
+            <div className="hr"></div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function CompareHighlight({ year, vnPeriods, cnPeriods }){
+  function sumCounts(periods){
+    let e=0,f=0,a=0;
+    for (const p of periods){
+      const c = getContentItems(p);
+      e += safeArr(c.events).length;
+      f += safeArr(c.figures).length;
+      a += safeArr(c.achievements).length;
+    }
+    return { e,f,a };
+  }
+  const vnC = sumCounts(vnPeriods);
+  const cnC = sumCounts(cnPeriods);
+  const notes = buildCompareNotes(vnPeriods, cnPeriods);
+
+  return (
+    <div className="card" style={{ marginTop: 12 }}>
+      <div className="compareTitle">
+        <div>
+          <div style={{ fontWeight: 1000, fontSize: 18 }}>✨ Compare Highlight</div>
+          <div className="muted" style={{ marginTop: 4 }}>Năm {year} — so sánh nhanh dựa trên dataset</div>
+        </div>
+        <div className="chip badge">Tip: click map để phóng to</div>
+      </div>
+
+      <div className="kpiRow">
+        <div className="kpi"><div className="num">🇻🇳 {vnPeriods.length}</div><div className="cap">Giai đoạn active</div></div>
+        <div className="kpi"><div className="num">🇨🇳 {cnPeriods.length}</div><div className="cap">Giai đoạn active</div></div>
+        <div className="kpi"><div className="num">{vnC.e + cnC.e}</div><div className="cap">Tổng sự kiện (2 bên)</div></div>
+      </div>
+
+      <div className="compareBox">
+        <div className="split">
+          <div>
+            <div style={{ fontWeight: 1000 }}>🇻🇳 Việt Nam</div>
+            <div className="muted" style={{ marginTop: 6 }}><b>Giai đoạn:</b> {notes.vnNames}</div>
+            <div className="muted" style={{ marginTop: 6 }}><b>Counts:</b> {vnC.e} sự kiện • {vnC.f} nhân vật • {vnC.a} thành tựu</div>
+            <div style={{ marginTop: 10 }}>
+              <div className="sectionTitle">Điểm nổi bật</div>
+              {notes.vnHL.map((x,i) => <div key={"vnhl_"+i} className="muted">• {x}</div>)}
+            </div>
+          </div>
+
+          <div>
+            <div style={{ fontWeight: 1000 }}>🇨🇳 Trung Quốc</div>
+            <div className="muted" style={{ marginTop: 6 }}><b>Giai đoạn:</b> {notes.cnNames}</div>
+            <div className="muted" style={{ marginTop: 6 }}><b>Counts:</b> {cnC.e} sự kiện • {cnC.f} nhân vật • {cnC.a} thành tựu</div>
+            <div style={{ marginTop: 10 }}>
+              <div className="sectionTitle">Điểm nổi bật</div>
+              {notes.cnHL.map((x,i) => <div key={"cnhl_"+i} className="muted">• {x}</div>)}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function pickMapCandidates(periods){
+  const out = [];
+  for (const p of periods){
+    if (p && p.map && p.map.src) out.push(p);
+  }
+  return out;
+}
+
+function HistoricalMapPanel({ year, vnPeriods, cnPeriods }){
+  const vnCands = pickMapCandidates(vnPeriods);
+  const cnCands = pickMapCandidates(cnPeriods);
+
+  const [vnIdx, setVnIdx] = React.useState(0);
+  const [cnIdx, setCnIdx] = React.useState(0);
+  const [zoom, setZoom] = React.useState(null);
+
+  React.useEffect(() => { setVnIdx(0); }, [vnCands.length, year]);
+  React.useEffect(() => { setCnIdx(0); }, [cnCands.length, year]);
+
+  function MapCard({ label, cands, idx, setIdx, flag }){
+    const p = cands.length ? cands[Math.min(idx, cands.length - 1)] : (null);
+    const m = p && p.map ? p.map : null;
+
+    return (
+      <div className="panel">
+        <div style={{ display:"flex", justifyContent:"space-between", gap:8, flexWrap:"wrap", alignItems:"baseline" }}>
+          <h2 style={{ margin: 0 }}>{flag} {label}</h2>
+          <div className="muted" style={{ fontSize: 12 }}>Năm {year}</div>
+        </div>
+
+        {!p ? (
+          <div className="muted" style={{ marginTop: 10 }}>
+            Năm này chưa có map (hoặc period không set <code>map.src</code>).
+          </div>
+        ) : (
+          <div style={{ marginTop: 10 }}>
+            <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", gap:10, flexWrap:"wrap" }}>
+              <div className="pill">{p.name} ({p.startYear}–{p.endYear})</div>
+              {cands.length > 1 ? (
+                <div className="chipRow" style={{ marginTop: 0 }}>
+                  <button className="btn" onClick={() => setIdx((idx - 1 + cands.length) % cands.length)}>◀</button>
+                  <div className="chip badge">{idx+1}/{cands.length}</div>
+                  <button className="btn" onClick={() => setIdx((idx + 1) % cands.length)}>▶</button>
+                </div>
+              ) : null}
+            </div>
+
+            {m && m.src ? (
+              <img
+                src={m.src}
+                alt={m.caption || (p.name + " map")}
+                style={{
+                  width:"100%",
+                  height:"360px",
+                  objectFit:"cover",
+                  borderRadius:"16px",
+                  border:"1px solid #e5e7eb",
+                  marginTop:"10px",
+                  cursor:"zoom-in"
+                }}
+                onClick={() => setZoom({ flag, period:p, map:m })}
+              />
+            ) : (
+              <div className="muted" style={{ marginTop: 10 }}>Chưa có map.src cho giai đoạn này.</div>
+            )}
+
+            {m ? (
+              <div className="muted" style={{ marginTop: 8, fontSize: 12 }}>
+                <b>{m.caption || "Bản đồ thời kì"}</b>
+                {m.attribution ? <div>Nguồn: {m.attribution}</div> : null}
+                {m.license ? <div>License: {m.license}</div> : null}
+              </div>
+            ) : null}
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ marginTop: 12 }}>
+      <div className="card">
+        <div className="compareTitle">
+          <div>
+            <div style={{ fontWeight: 1000, fontSize: 18 }}>🗺️ Bản đồ theo thời kì</div>
+            <div className="muted" style={{ marginTop: 4 }}>
+              Mỗi giai đoạn có một ảnh bản đồ riêng (set trong JSON: <code>map.src</code>). Click ảnh để phóng to.
+            </div>
+          </div>
+          <div className="chip badge">Thay ảnh ở assets/maps/</div>
+        </div>
+      </div>
+
+      <div className="grid" style={{ marginTop: 12 }}>
+        <MapCard label="Việt Nam" cands={vnCands} idx={vnIdx} setIdx={setVnIdx} flag="🇻🇳" />
+        <MapCard label="Trung Quốc" cands={cnCands} idx={cnIdx} setIdx={setCnIdx} flag="🇨🇳" />
+      </div>
+
+      {zoom ? (
+        <div className="modalBg" onClick={() => setZoom(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <h3>{zoom.flag} {zoom.period.name} ({zoom.period.startYear}–{zoom.period.endYear})</h3>
+            <div className="muted" style={{ marginBottom: 10 }}>{zoom.map.caption || ""}</div>
+
+            <img
+              src={zoom.map.src}
+              alt={zoom.map.caption || "map"}
+              style={{ width:"100%", maxHeight:"70vh", objectFit:"contain", borderRadius:"14px", border:"1px solid #e5e7eb" }}
+            />
+
+            <div className="muted" style={{ marginTop: 10, fontSize: 12 }}>
+              {zoom.map.attribution ? <div>Nguồn: {zoom.map.attribution}</div> : null}
+              {zoom.map.license ? <div>License: {zoom.map.license}</div> : null}
+            </div>
+
+            <div className="hr"></div>
+            <button className="btn" onClick={() => setZoom(null)}>Đóng</button>
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+async function loadJson(path) {
+  const res = await fetch(path);
+  if (!res.ok) throw new Error("Không đọc được: " + path + " (HTTP " + res.status + ")");
+  return await res.json();
+}
+
+function App(){
+  const [year, setYear] = React.useState(1103);
+  const [vn, setVn] = React.useState([]);
+  const [cn, setCn] = React.useState([]);
+  const [err, setErr] = React.useState("");
+  const [modal, setModal] = React.useState(null);
+
+  const [hideTodos, setHideTodos] = React.useState(true);
+  const [selectedGrades, setSelectedGrades] = React.useState(new Set());
+
+  React.useEffect(() => {
+    (async () => {
+      try{
+        const vnData = await loadJson("./data/vietnam/periods.json");
+        const cnData = await loadJson("./data/china/periods.json");
+        for (const p of vnData) p.__searchText = mkSearchText(p);
+        for (const p of cnData) p.__searchText = mkSearchText(p);
+        setVn(vnData); setCn(cnData);
+      } catch(e){ setErr(String(e && e.message ? e.message : e)); }
+    })();
+  }, []);
+
+  const allPeriods = React.useMemo(() => ([]).concat(vn, cn), [vn, cn]);
+
+  const vnPeriods = React.useMemo(() => {
+    return vn.filter(p => (hideTodos ? !hasTodo(p) : true))
+             .filter(p => periodHasGrades(p, selectedGrades))
+             .filter(p => periodMatchesYear(p, year));
+  }, [vn, year, hideTodos, selectedGrades]);
+
+  const cnPeriods = React.useMemo(() => {
+    return cn.filter(p => (hideTodos ? !hasTodo(p) : true))
+             .filter(p => periodHasGrades(p, selectedGrades))
+             .filter(p => periodMatchesYear(p, year));
+  }, [cn, year, hideTodos, selectedGrades]);
+
+  function openDetail(title, detail, period){ setModal({ title, detail, period }); }
+
+  function jumpToPeriod(p){
+    const y = Number.isInteger(p.startYear) ? p.startYear : year;
+    setYear(y);
+    setModal({ title: (p.country === "VN" ? "🇻🇳 " : "🇨🇳 ") + p.name, detail: p.summary, period: p });
+  }
+
+  return (
+    <div className="container">
+      <div className="header">
+        <div>
+          <h1>History Timeline (VN + CN)</h1>
+          <div className="sub">Historical maps • Search • Filter lớp • Compare highlight</div>
+        </div>
+        <div className="chipRow">
+          <div className="chip badge">Run: <code>npx serve .</code></div>
+          <div className="chip badge">Open: <code>/app.html</code></div>
+        </div>
+      </div>
+
+      <div className="controls">
+        <div className="card">
+          <div className="compareTitle">
+            <div>
+              <div className="label">Năm: {year}</div>
+              <div className="muted" style={{ fontSize: 12, marginTop: 4 }}>Kéo để xem giai đoạn cover năm đó</div>
+            </div>
+            <label className="chip" style={{ cursor:"pointer" }}>
+              <input type="checkbox" checked={hideTodos} onChange={(e) => setHideTodos(e.target.checked)} style={{ transform:"translateY(1px)" }}/>
+              Ẩn PLACEHOLDER_TODO
+            </label>
+          </div>
+
+          <input type="range" min="-700" max="2025" value={year}
+            onChange={(e) => setYear(parseInt(e.target.value, 10))}
+            style={{ width:"100%", marginTop: 10 }}
+          />
+
+          {err ? (<div className="warn" style={{ marginTop: 10 }}>{err}</div>) : null}
+          <div className="hr"></div>
+          <GradeChips selectedGrades={selectedGrades} setSelectedGrades={setSelectedGrades} />
+        </div>
+
+        <div className="card">
+          <SearchBox allPeriods={allPeriods} onJump={jumpToPeriod} hidePlaceholders={hideTodos} selectedGrades={selectedGrades}/>
+          <div className="hr"></div>
+          <div className="label">Quick actions</div>
+          <div className="row" style={{ marginTop: 10 }}>
+            <button className="btn" onClick={() => setYear(40)}>Năm 40</button>
+            <button className="btn" onClick={() => setYear(938)}>Năm 938</button>
+            <button className="btn" onClick={() => setYear(1550)}>Năm 1550</button>
+            <button className="btn" onClick={() => setYear(200)}>Năm 200</button>
+          </div>
+          <div className="muted" style={{ marginTop: 10, fontSize: 12 }}>
+            Bản đồ theo thời kì lấy từ <code>map.src</code> trong dataset. Bạn chỉ cần thay ảnh trong <code>assets/maps/</code>.
+          </div>
+        </div>
+      </div>
+
+      <HistoricalMapPanel year={year} vnPeriods={vnPeriods} cnPeriods={cnPeriods} />
+      <CompareHighlight year={year} vnPeriods={vnPeriods} cnPeriods={cnPeriods} />
+
+      <div className="grid" style={{ marginTop: 12 }}>
+        <CountryPanel title="🇻🇳 Việt Nam" periods={vnPeriods} onOpenDetail={openDetail} />
+        <CountryPanel title="🇨🇳 Trung Quốc" periods={cnPeriods} onOpenDetail={openDetail} />
+      </div>
+
+      {modal ? (
+        <div className="modalBg" onClick={() => setModal(null)}>
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <h3>{modal.title}</h3>
+            <div className="muted" style={{ marginBottom: 10 }}>
+              {modal.period ? (<span>{modal.period.country} • {modal.period.name} ({modal.period.startYear}–{modal.period.endYear})</span>) : null}
+            </div>
+            <div style={{ lineHeight:"22px" }}>{modal.detail}</div>
+            <div className="hr"></div>
+            <button className="btn" onClick={() => setModal(null)}>Đóng</button>
+          </div>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
