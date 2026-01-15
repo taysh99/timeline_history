@@ -14,4 +14,10 @@ Requires Node.js (for the validator script):
 ## Important
 The dataset includes some real high-level periods plus many PLACEHOLDER_TODO items so you have a 100+ skeleton immediately.
 Replace TODO items gradually with verified content and correct sources.
-# timeline_history
+
+## Historical maps (license-safe)
+The app supports a **per-period historical map image** via the `map` field in each period.
+
+- In this version, maps are **hotlinked from Wikimedia Commons** (no downloads required).
+- Attribution & license references: `docs/maps-attribution.md`.
+- To add/replace a map for a period: edit `map.src` (use `Special:FilePath/<filename>?width=...`) and update attribution fields.

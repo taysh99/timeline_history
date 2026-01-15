@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"/>
+  <rect x="60" y="60" width="1480" height="780" rx="28" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+  <text x="120" y="200" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="56" font-weight="800" fill="#0f172a">CN — Nhà Hán</text>
+  <text x="120" y="280" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="28" font-weight="600" fill="#334155">-206 – 220  •  id: cn_han</text>
+  <text x="120" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" fill="#64748b">PLACEHOLDER MAP — Replace this file with a historical period map image.</text>
+  <text x="120" y="740" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#64748b">Tip: dùng PNG/JPG/SVG có license rõ (CC/Public Domain) và ghi attribution trong JSON.</text>
+  <text x="120" y="790" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" fill="#94a3b8">assets/maps/</text>
+</svg>

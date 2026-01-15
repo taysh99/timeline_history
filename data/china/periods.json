@@ -17,15 +17,65 @@
     ],
     "summary": "Các triều đại cổ đại đặt nền tảng văn minh và tổ chức nhà nước ở Trung Hoa cổ.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Hình thành nhà nước thời đại đồ đồng",
+          "detail": "Cơ cấu quyền lực và đô thị sơ khai phát triển (khái quát)."
+        },
+        {
+          "title": "Chữ giáp cốt thời Thương",
+          "detail": "Một trong những dạng chữ viết sớm, cơ sở cho chữ Hán."
+        },
+        {
+          "title": "Thiết lập chế độ phong kiến thời Chu",
+          "detail": "Phân phong chư hầu, định hình cấu trúc chính trị (khái quát)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Vũ Đinh (Wu Ding)",
+          "detail": "Vua Thương; thời kỳ tư liệu giáp cốt phong phú."
+        },
+        {
+          "title": "Phụ Hảo (Fu Hao)",
+          "detail": "Nữ tướng/hoàng hậu thời Thương; được biết qua tư liệu giáp cốt."
+        },
+        {
+          "title": "Chu Công (Duke of Zhou)",
+          "detail": "Nhân vật quan trọng thời Tây Chu, góp phần định hình lễ nhạc – chính trị."
+        },
+        {
+          "title": "Khổng Tử (551–479 TCN)",
+          "detail": "Nhà tư tưởng lớn nhất Trung Quốc; sáng lập Nho giáo, ảnh hưởng sâu rộng đến văn hóa và chính trị."
+        },
+        {
+          "title": "Mạnh Tử (372–289 TCN)",
+          "detail": "Nhà triết học Nho giáo; phát triển tư tưởng nhân nghĩa, dân bản của Khổng Tử."
+        },
+        {
+          "title": "Tôn Tử (thế kỷ 6–5 TCN)",
+          "detail": "Nhà quân sự cổ đại; tác giả 'Binh Pháp Tôn Tử', nền tảng của chiến lược quân sự thế giới."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Nền tảng văn minh Trung Hoa cổ đại",
+          "detail": "Lễ nhạc, chữ viết, kỹ nghệ đồ đồng và tổ chức chính trị."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Ts'in_Dynasty_255-206_BC.jpg?width=1400",
+      "caption": "Nhà Tần (221–206 TCN)",
+      "attribution": "Historical and Commercial Atlas of China (1935) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Ts'in_Dynasty_255-206_BC.jpg"
+    }
   },
   {
     "id": "cn_qin",
@@ -33,7 +83,7 @@
     "type": "dynasty",
     "name": "Nhà Tần",
     "startYear": -221,
-    "endYear": -206,
+    "endYear": -207,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -49,21 +99,49 @@
         {
           "title": "Thống nhất Trung Hoa (221 TCN)",
           "detail": "Thiết lập chính quyền trung ương tập quyền."
+        },
+        {
+          "title": "Thống nhất Trung Quốc (221 TCN)",
+          "detail": "Kết thúc thời Chiến Quốc, lập nhà Tần."
+        },
+        {
+          "title": "Chuẩn hoá chữ viết, tiền tệ, đo lường",
+          "detail": "Tăng tính thống nhất quản trị và kinh tế."
         }
       ],
       "figures": [
         {
           "title": "Tần Thủy Hoàng (259–210 TCN)",
           "detail": "Hoàng đế đầu tiên thống nhất Trung Hoa; cải cách hành chính, luật pháp."
+        },
+        {
+          "title": "Lý Tư",
+          "detail": "Tể tướng, đóng vai trò trong cải cách và thống nhất."
+        },
+        {
+          "title": "Mông Điềm",
+          "detail": "Tướng lĩnh gắn với phòng thủ biên giới (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Mô hình nhà nước trung ương tập quyền",
+          "detail": "Ảnh hưởng lâu dài tới các triều đại sau."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Ts'in_Dynasty_255-206_BC.jpg?width=1400",
+      "caption": "Nhà Tần (221–206 TCN)",
+      "attribution": "Historical and Commercial Atlas of China (1935) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Ts'in_Dynasty_255-206_BC.jpg"
+    }
   },
   {
     "id": "cn_han",
@@ -71,7 +149,7 @@
     "type": "dynasty",
     "name": "Nhà Hán",
     "startYear": -206,
-    "endYear": 220,
+    "endYear": 219,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -85,8 +163,36 @@
     "content": {
       "events": [
         {
-          "title": "Cục diện Đông Hán cuối suy yếu",
-          "detail": "Triều đình suy yếu, cát cứ nổi lên; hình thành tiền đề cho Tam Quốc."
+          "title": "Chiến tranh giành ngôi giữa Lưu Bang và Hạng Vũ",
+          "year": -202,
+          "location": "Trung Quốc",
+          "actors": ["Lưu Bang", "Hạng Vũ"],
+          "detail": "Lưu Bang (Hán Cao Tổ) đánh bại Hạng Vũ tại trận Cai Hạ, thống nhất Trung Quốc và lập nên nhà Hán.",
+          "significance": "Kết thúc thời kỳ Chiến Quốc, mở đầu thời kỳ thống nhất lâu dài của Trung Quốc."
+        },
+        {
+          "title": "Cải cách của Hán Vũ Đế",
+          "year": -140,
+          "location": "Trung Quốc",
+          "actors": ["Hán Vũ Đế"],
+          "detail": "Hán Vũ Đế thực hiện tư hữu hóa đất đai, cải cách hành chính, mở rộng biên giới về phía Tây và Bắc, phát triển văn hóa và giáo dục.",
+          "significance": "Thời kỳ đỉnh cao của nhà Hán, mở rộng lãnh thổ và ảnh hưởng văn hóa."
+        },
+        {
+          "title": "Khởi nghĩa Hoàng Cân",
+          "year": 184,
+          "location": "Nho Giáo, Trung Quốc",
+          "actors": ["Trương Giác", "Trương Bảo", "Trương Lương"],
+          "detail": "Anh em họ Trương (Trương Giác, Trương Bảo, Trương Lương) lãnh đạo khởi nghĩa tôn giáo chống lại sự tha hóa của triều đình Đông Hán.",
+          "significance": "Dẫn đến sự suy yếu của nhà Hán, mở đầu thời kỳ Tam Quốc."
+        },
+        {
+          "title": "Hình thành Con đường Tơ lụa",
+          "year": -130,
+          "location": "Trung Á",
+          "actors": ["Trương Khiên", "Hán Vũ Đế"],
+          "detail": "Trương Khiên do Hán Vũ Đế phái đi khai phá tuyến đường thương mại nối Trung Quốc với Tây Vực và Đế quốc La Mã.",
+          "significance": "Mở đường giao thương Đông-Tây, trao đổi văn hóa và công nghệ giữa các nền văn minh."
         }
       ],
       "figures": [
@@ -101,15 +207,55 @@
         {
           "title": "Hán Vũ Đế (156–87 TCN)",
           "detail": "Hoàng đế tiêu biểu thời Hán; mở rộng ảnh hưởng và củng cố nhà nước."
+        },
+        {
+          "title": "Hàn Tín (?–196 TCN)",
+          "detail": "Tướng lĩnh vĩ đại nhà Hán; được gọi là 'Thiên hạ vô địch', người giúp Lưu Bang thống nhất Trung Quốc."
+        },
+        {
+          "title": "Lưu Bang (Hán Cao Tổ)",
+          "detail": "Sáng lập nhà Hán."
+        },
+        {
+          "title": "Trương Khiên",
+          "detail": "Mở đường giao lưu Tây Vực, gắn với Con đường Tơ lụa."
+        },
+        {
+          "title": "Tư Mã Thiên",
+          "detail": "Sử gia, tác giả Sử ký."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Củng cố Nho giáo và bộ máy quan liêu",
+          "detail": "Định hình nền tảng tư tưởng – quản trị."
+        },
+        {
+          "title": "Phát triển kỹ thuật giấy và in ấn",
+          "detail": "Cách mạng hóa việc lưu trữ và truyền bá kiến thức."
+        },
+        {
+          "title": "La bàn và kỹ thuật hàng hải",
+          "detail": "Mở đường cho khám phá và giao thương hàng hải."
+        },
+        {
+          "title": "Sử ký Tư Mã Thiên",
+          "detail": "Tác phẩm sử học kinh điển, mô hình cho các bộ sử sau."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/China_under_the_Earlier_and_Later_Han_Dynasties_206_BC-220_AD.jpg?width=1400",
+      "caption": "Nhà Hán (206 TCN–220)",
+      "attribution": "Historical and Commercial Atlas of China (1935) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:China_under_the_Earlier_and_Later_Han_Dynasties_206_BC-220_AD.jpg"
+    }
   },
   {
     "id": "cn_three_kingdoms",
@@ -132,6 +278,14 @@
         {
           "title": "Cục diện Tam Quốc hình thành",
           "detail": "Các thế lực Ngụy–Thục–Ngô cạnh tranh và phân chia quyền lực."
+        },
+        {
+          "title": "Hình thành cục diện Ngụy – Thục – Ngô (220)",
+          "detail": "Trung Quốc phân liệt thành ba nước."
+        },
+        {
+          "title": "Kết thúc Tam Quốc (280)",
+          "detail": "Nhà Tấn thống nhất (khái quát)."
         }
       ],
       "figures": [
@@ -146,15 +300,31 @@
         {
           "title": "Gia Cát Lượng (181–234)",
           "detail": "Mưu sĩ nổi tiếng của Thục Hán."
+        },
+        {
+          "title": "Tào Phi",
+          "detail": "Lập nhà Ngụy (Cao Ngụy)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Phát triển quân sự và chiến lược",
+          "detail": "Nhiều tư tưởng quân sự – chính trị được đúc kết (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_China_During_the_Period_of_the_Three_Kingdoms.jpg?width=1400",
+      "caption": "Tam Quốc (220–280)",
+      "attribution": "After Charles O. Hucker (1903) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_China_During_the_Period_of_the_Three_Kingdoms.jpg"
+    }
   },
   {
     "id": "cn_jin",
@@ -172,15 +342,57 @@
     ],
     "summary": "Thời kỳ thống nhất ngắn và sau đó biến động.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Nhà Tấn thống nhất (280)",
+          "detail": "Kết thúc Tam Quốc."
+        },
+        {
+          "title": "Loạn Bát Vương (đầu thế kỷ IV)",
+          "detail": "Nội chiến suy yếu triều Tấn (khái quát)."
+        },
+        {
+          "title": "Nam thiên của Đông Tấn",
+          "detail": "Trung tâm chính trị chuyển xuống phía Nam sau biến động miền Bắc (khái quát)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Tư Mã Viêm (Tấn Vũ Đế)",
+          "detail": "Thống nhất Trung Quốc (280) sau Tam Quốc."
+        },
+        {
+          "title": "Vương Hi Chi",
+          "detail": "Danh gia thư pháp thời Đông Tấn."
+        },
+        {
+          "title": "Tư Mã Chiêu",
+          "detail": "Nhân vật then chốt trong quá trình chuyển từ Ngụy sang Tấn (khái quát)."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Văn hoá và thư pháp phát triển",
+          "detail": "Đóng góp lâu dài của giới sĩ tộc (khái quát)."
+        },
+        {
+          "title": "Phát triển triết học và văn hoá sĩ tộc",
+          "detail": "Phong trào huyền học và sinh hoạt văn hoá của giới sĩ đại phu (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": true,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_China_During_the_Period_of_the_Three_Kingdoms.jpg?width=1400",
+      "caption": "Tam Quốc (220–280)",
+      "attribution": "After Charles O. Hucker (1903) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_China_During_the_Period_of_the_Three_Kingdoms.jpg"
+    }
   },
   {
     "id": "cn_southern_northern",
@@ -200,15 +412,45 @@
     ],
     "summary": "Giai đoạn chia cắt lâu dài; giao lưu văn hóa mạnh.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Cục diện phân liệt Nam – Bắc",
+          "detail": "Nhiều triều đại kế tiếp nhau (khái quát)."
+        },
+        {
+          "title": "Cải cách Hán hoá ở Bắc Ngụy",
+          "detail": "Thay đổi xã hội – chính trị (khái quát)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Hiếu Văn Đế Bắc Ngụy",
+          "detail": "Cải cách, thúc đẩy Hán hoá (khái quát)."
+        },
+        {
+          "title": "Lương Vũ Đế",
+          "detail": "Giai đoạn Nam triều, bảo trợ Phật giáo (khái quát)."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Phật giáo phát triển mạnh",
+          "detail": "Ảnh hưởng sâu rộng tới văn hoá Đông Á."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
-    "notes": ""
+    "overlapAllowed": true,
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tang_outline_map,_661.svg?width=1400",
+      "caption": "Nhà Đường (đầu kỳ, ~661)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tang_outline_map,_661.svg"
+    }
   },
   {
     "id": "cn_sui",
@@ -216,7 +458,7 @@
     "type": "dynasty",
     "name": "Nhà Tùy",
     "startYear": 581,
-    "endYear": 618,
+    "endYear": 617,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -227,20 +469,45 @@
     ],
     "summary": "Thống nhất lại đất nước sau phân liệt.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Nhà Tùy thống nhất (589)",
+          "detail": "Chấm dứt Nam – Bắc triều."
+        },
+        {
+          "title": "Xây dựng Đại Vận Hà",
+          "detail": "Kết nối kinh tế Bắc – Nam, tác động lâu dài."
+        }
+      ],
       "figures": [
         {
           "title": "Tùy Văn Đế (541–604)",
           "detail": "Người thống nhất lại Trung Hoa, đặt nền cho thời kỳ sau."
+        },
+        {
+          "title": "Tùy Dạng Đế",
+          "detail": "Xây Đại Vận Hà nhưng cai trị hà khắc, dẫn tới suy vong (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hạ tầng và quản trị tập trung",
+          "detail": "Tác động nền tảng cho thời Đường."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
-    "notes": ""
+    "overlapAllowed": true,
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tang_outline_map,_661.svg?width=1400",
+      "caption": "Nhà Đường (đầu kỳ, ~661)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tang_outline_map,_661.svg"
+    }
   },
   {
     "id": "cn_tang",
@@ -248,7 +515,7 @@
     "type": "dynasty",
     "name": "Nhà Đường",
     "startYear": 618,
-    "endYear": 907,
+    "endYear": 906,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -260,7 +527,40 @@
     ],
     "summary": "Thời kỳ thịnh trị, ảnh hưởng lớn đến khu vực.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Thời kỳ Thịnh trị Trinh Quán",
+          "year": 627,
+          "location": "Trung Quốc",
+          "actors": ["Đường Thái Tông", "Các quan đại thần"],
+          "detail": "Đường Thái Tông cùng các tướng tài như Phòng Huyền Linh, Độc Cô Huệ, Lý Tĩnh thực hiện cải cách hành chính và quân sự.",
+          "significance": "Thời kỳ hoàng kim của nhà Đường với chính trị ổn định, kinh tế phát triển, văn hóa rực rỡ."
+        },
+        {
+          "title": "Loạn An Sử - cuộc nổi dậy của An Lộc Sơn",
+          "year": 755,
+          "location": "Fanyang (Bắc Kinh), Trung Quốc",
+          "actors": ["An Lộc Sơn", "Thường Sơn", "Đường Huyền Tông"],
+          "detail": "An Lộc Sơn và Thường Sơn lãnh đạo cuộc nổi dậy chống lại triều đình nhà Đường từ căn cứ Fanyang.",
+          "significance": "Dẫn đến sự suy yếu của nhà Đường, mở đầu thời kỳ loạn lạc và phân liệt."
+        },
+        {
+          "title": "Lý Bạch thi đỗ tiến sĩ",
+          "year": 744,
+          "location": "Trường An (Xi'an)",
+          "actors": ["Lý Bạch", "Đường Huyền Tông"],
+          "detail": "Lý Bạch đến Trường An thi đỗ tiến sĩ, được Đường Huyền Tông vời vào cung làm quan.",
+          "significance": "Bắt đầu sự nghiệp thơ ca của Lý Bạch, góp phần làm rạng rỡ văn hóa Đường."
+        },
+        {
+          "title": "Đỗ Phủ sống lưu vong",
+          "year": 759,
+          "location": "Thục (Tứ Xuyên)",
+          "actors": ["Đỗ Phủ"],
+          "detail": "Đỗ Phủ chạy loạn đến vùng Thục, sống lưu vong và sáng tác nhiều bài thơ phản ánh xã hội.",
+          "significance": "Tạo nên những tác phẩm thơ xuất sắc phản ánh cuộc sống nhân dân thời loạn lạc."
+        }
+      ],
       "figures": [
         {
           "title": "Đường Thái Tông (599–649)",
@@ -271,17 +571,41 @@
           "detail": "Nữ hoàng duy nhất làm hoàng đế; nhân vật nổi bật thời Đường."
         },
         {
+          "title": "Lý Bặc (701–762)",
+          "detail": "Nhà thơ lớn nhất Trung Quốc; tác phẩm nổi tiếng như 'Tĩnh dạ tư', 'Vũ hiệp ca'."
+        },
+        {
+          "title": "Đỗ Phủ (712–770)",
+          "detail": "Nhà thơ lớn; thơ phản ánh xã hội loạn lạc, nổi tiếng với 'Xuân vọng'."
+        },
+        {
           "title": "Đường Huyền Tông (685–762)",
           "detail": "Giai đoạn thịnh và suy; bối cảnh nhiều biến động."
+        },
+        {
+          "title": "An Lộc Sơn",
+          "detail": "Thủ lĩnh nổi dậy An Sử (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Văn hoá – thơ Đường",
+          "detail": "Đỉnh cao văn học (Lý Bạch, Đỗ Phủ… – có thể thêm vào dataset sau)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tang_outline_map,_661.svg?width=1400",
+      "caption": "Nhà Đường (đầu kỳ, ~661)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tang_outline_map,_661.svg"
+    }
   },
   {
     "id": "cn_five_dynasties",
@@ -289,7 +613,7 @@
     "type": "period",
     "name": "Ngũ Đại Thập Quốc",
     "startYear": 907,
-    "endYear": 960,
+    "endYear": 959,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -299,15 +623,61 @@
     ],
     "summary": "Thời kỳ phân liệt sau Đường.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Phân liệt sau Đường",
+          "detail": "Nhiều triều đại ngắn ở phương Bắc, các nước ở phương Nam (khái quát)."
+        },
+        {
+          "title": "Các nước Thập Quốc ở phương Nam",
+          "detail": "Cùng tồn tại với Ngũ Đại ở phương Bắc, tạo bức tranh phân quyền (khái quát)."
+        },
+        {
+          "title": "Nhà Tống thống nhất dần (từ 960)",
+          "detail": "Chuyển tiếp từ phân liệt sang thống nhất."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Chu Ôn (Zhu Wen)",
+          "detail": "Nhân vật mở đầu thời Ngũ Đại (khái quát)."
+        },
+        {
+          "title": "Triệu Khuông Dận",
+          "detail": "Kết thúc phân liệt, lập nhà Tống (960)."
+        },
+        {
+          "title": "Sài Vinh (Hậu Chu Thế Tông)",
+          "detail": "Vua Hậu Chu; cải cách và củng cố tiền đề thống nhất (khái quát)."
+        },
+        {
+          "title": "Lý Dục (Nam Đường Hậu Chủ)",
+          "detail": "Nhân vật văn hoá nổi bật của một trong các nước thời Thập Quốc (khái quát)."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Tiền đề thống nhất dưới thời Tống",
+          "detail": "Chuyển tiếp quan trọng về chính trị – quân sự."
+        },
+        {
+          "title": "Văn hoá khu vực phát triển đa dạng",
+          "detail": "Nhiều trung tâm văn hoá địa phương nở rộ trong bối cảnh phân liệt."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sung_Liao_and_Chin_Dynasties_960-1280_AD.jpg?width=1400",
+      "caption": "Tống–Liêu–Kim (960–1279, khái quát)",
+      "attribution": "Historical and Commercial Atlas of China (1935) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sung_Liao_and_Chin_Dynasties_960-1280_AD.jpg"
+    }
   },
   {
     "id": "cn_song",
@@ -331,6 +701,14 @@
         {
           "title": "Cải cách của Vương An Thạch",
           "detail": "Chính sách cải cách kinh tế–xã hội thời Bắc Tống."
+        },
+        {
+          "title": "Cải cách Tân pháp (thế kỷ XI)",
+          "detail": "Thay đổi tài chính – quân sự – xã hội."
+        },
+        {
+          "title": "Biến cố Tĩnh Khang (1127)",
+          "detail": "Bắc Tống sụp đổ, Nam Tống hình thành."
         }
       ],
       "figures": [
@@ -345,9 +723,30 @@
         {
           "title": "Tô Đông Pha (1037–1101)",
           "detail": "Danh sĩ, nhà văn hóa thời Tống."
+        },
+        {
+          "title": "Tống Thái Tổ (Triệu Khuông Dận)",
+          "detail": "Sáng lập nhà Tống, thống nhất phần lớn Trung Quốc."
+        },
+        {
+          "title": "Tô Đông Pha (Tô Thức)",
+          "detail": "Danh sĩ, văn học – nghệ thuật."
+        },
+        {
+          "title": "Thẩm Quát",
+          "detail": "Nhà khoa học, tác giả Mộng khê bút đàm."
+        },
+        {
+          "title": "Nhạc Phi",
+          "detail": "Danh tướng chống Kim (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Phát triển kinh tế đô thị và kỹ thuật",
+          "detail": "In ấn, la bàn, thuốc súng, thương mại phát triển (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
@@ -367,7 +766,14 @@
         "lng": 120.1551,
         "note": "Nam Tống (kinh đô)"
       }
-    ]
+    ],
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sung_Liao_and_Chin_Dynasties_960-1280_AD.jpg?width=1400",
+      "caption": "Tống–Liêu–Kim (960–1279, khái quát)",
+      "attribution": "Historical and Commercial Atlas of China (1935) • Public Domain • Wikimedia Commons",
+      "license": "Public Domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sung_Liao_and_Chin_Dynasties_960-1280_AD.jpg"
+    }
   },
   {
     "id": "cn_yuan",
@@ -375,7 +781,7 @@
     "type": "dynasty",
     "name": "Nhà Nguyên",
     "startYear": 1271,
-    "endYear": 1368,
+    "endYear": 1367,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -386,20 +792,53 @@
     ],
     "summary": "Triều đại do người Mông Cổ lập, ảnh hưởng rộng.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Nhà Nguyên thống trị (1271–1368)",
+          "detail": "Đế chế Mông Cổ quản trị Trung Hoa."
+        },
+        {
+          "title": "Chinh phục Nam Tống (1279)",
+          "detail": "Hoàn tất thống nhất Trung Hoa dưới nhà Nguyên."
+        },
+        {
+          "title": "Dời đô và phát triển Đại Đô (Dadu – Bắc Kinh)",
+          "detail": "Trung tâm hành chính quan trọng thời Nguyên (khái quát)."
+        }
+      ],
       "figures": [
         {
           "title": "Hốt Tất Liệt (1215–1294)",
           "detail": "Hoàng đế lập nhà Nguyên, mở rộng quản trị đế chế."
+        },
+        {
+          "title": "Thoát Thoát (Toqto'a)",
+          "detail": "Tể tướng cuối Nguyên, gắn với nỗ lực cải cách và biên soạn sử (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Giao lưu Á – Âu tăng cường",
+          "detail": "Mở rộng trao đổi thương mại và văn hoá (khái quát)."
+        },
+        {
+          "title": "Kịch – tạp kịch thời Nguyên (Yuan zaju)",
+          "detail": "Đóng góp đáng kể cho sân khấu và văn học Trung Hoa."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuan_in_1335_cn_en.png?width=1400",
+      "caption": "Nhà Nguyên (~1335)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yuan_in_1335_cn_en.png"
+    }
   },
   {
     "id": "cn_ming",
@@ -407,7 +846,7 @@
     "type": "dynasty",
     "name": "Nhà Minh",
     "startYear": 1368,
-    "endYear": 1644,
+    "endYear": 1643,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -423,6 +862,10 @@
         {
           "title": "Các chuyến hải hành của Trịnh Hòa",
           "detail": "Mở rộng giao lưu hàng hải và ngoại giao thời Minh."
+        },
+        {
+          "title": "Các chuyến hải hành Trịnh Hòa (thế kỷ XV)",
+          "detail": "Mở rộng ảnh hưởng hàng hải, giao lưu quốc tế."
         }
       ],
       "figures": [
@@ -437,23 +880,43 @@
         {
           "title": "Trịnh Hòa (1371–1433/35)",
           "detail": "Đô đốc chỉ huy các chuyến hải hành thời Minh."
+        },
+        {
+          "title": "Chu Nguyên Chương (Minh Thái Tổ)",
+          "detail": "Lập nhà Minh."
+        },
+        {
+          "title": "Vương Dương Minh",
+          "detail": "Nhà tư tưởng Nho học (Tâm học)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Phát triển đô thị và công trình",
+          "detail": "Bắc Kinh và Tử Cấm Thành (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Ming_Empire_cca_1580_(en).svg?width=1400",
+      "caption": "Nhà Minh (~1580)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ming_Empire_cca_1580_(en).svg"
+    }
   },
   {
     "id": "cn_qing",
     "country": "CN",
     "type": "dynasty",
     "name": "Nhà Thanh",
-    "startYear": 1636,
-    "endYear": 1912,
+    "startYear": 1644,
+    "endYear": 1911,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -464,7 +927,16 @@
     ],
     "summary": "Triều đại cuối của chế độ quân chủ; nhiều biến động cận đại.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Chiến tranh Nha phiến (1840–1842)",
+          "detail": "Mở đầu thời kỳ ‘bán thuộc địa’ (khái quát)."
+        },
+        {
+          "title": "Khởi nghĩa Thái Bình Thiên Quốc (1850–1864)",
+          "detail": "Nội chiến quy mô lớn, làm suy yếu nhà Thanh."
+        }
+      ],
       "figures": [
         {
           "title": "Khang Hy (1654–1722)",
@@ -473,15 +945,31 @@
         {
           "title": "Càn Long (1711–1799)",
           "detail": "Hoàng đế nổi bật; thời kỳ mở rộng và quản trị đế quốc."
+        },
+        {
+          "title": "Từ Hi Thái Hậu",
+          "detail": "Nhân vật chính trị cuối Thanh (khái quát)."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Tiếp xúc cưỡng bức với phương Tây và cải cách",
+          "detail": "Tự cường vận động và cải cách cuối thế kỷ XIX (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Qing_dynasty_in_1760.svg?width=1400",
+      "caption": "Nhà Thanh (~1760)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qing_dynasty_in_1760.svg"
+    }
   },
   {
     "id": "cn_republic",
@@ -489,7 +977,7 @@
     "type": "period",
     "name": "Trung Hoa Dân Quốc",
     "startYear": 1912,
-    "endYear": 1949,
+    "endYear": 1948,
     "eraLabel": "",
     "grades": [
       "L10"
@@ -504,6 +992,14 @@
         {
           "title": "Cách mạng Tân Hợi (1911)",
           "detail": "Chuyển đổi từ quân chủ sang cộng hòa, mở đường cho Dân Quốc."
+        },
+        {
+          "title": "Kháng chiến chống Nhật (1937–1945)",
+          "detail": "Chiến tranh Trung – Nhật, tác động lớn tới xã hội."
+        },
+        {
+          "title": "Nội chiến Quốc – Cộng (kết thúc 1949)",
+          "detail": "Dẫn tới thành lập CHND Trung Hoa."
         }
       ],
       "figures": [
@@ -516,13 +1012,25 @@
           "detail": "Nhân vật chính trị – quân sự nổi bật giai đoạn Dân Quốc."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Chuyển đổi sang mô hình cộng hoà",
+          "detail": "Thay đổi thể chế chính trị (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Qing_dynasty_in_1760.svg?width=1400",
+      "caption": "Nhà Thanh (~1760)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qing_dynasty_in_1760.svg"
+    }
   },
   {
     "id": "cn_prc",
@@ -545,8 +1053,12 @@
     "content": {
       "events": [
         {
-          "title": "Cải cách mở cửa",
-          "detail": "Chuyển đổi chính sách kinh tế, thúc đẩy hội nhập và phát triển."
+          "title": "Thành lập CHND Trung Hoa (1949)",
+          "detail": "Bước ngoặt chính trị lớn."
+        },
+        {
+          "title": "Cải cách mở cửa (từ 1978)",
+          "detail": "Chuyển đổi kinh tế, hội nhập toàn cầu."
         }
       ],
       "figures": [
@@ -557,15 +1069,31 @@
         {
           "title": "Đặng Tiểu Bình (1904–1997)",
           "detail": "Nhân vật nổi bật giai đoạn cải cách mở cửa."
+        },
+        {
+          "title": "Chu Ân Lai",
+          "detail": "Nhà lãnh đạo ngoại giao – chính trị quan trọng."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hiện đại hoá kinh tế và hội nhập",
+          "detail": "Tăng trưởng nhanh, mở rộng giao thương (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "world_history_ref"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Qing_dynasty_in_1760.svg?width=1400",
+      "caption": "Nhà Thanh (~1760)",
+      "attribution": "CC BY-SA (see file page) • Wikimedia Commons",
+      "license": "CC BY-SA",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qing_dynasty_in_1760.svg"
+    }
   },
   {
     "id": "cn_todo_016",
@@ -590,7 +1118,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -616,7 +1144,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -642,7 +1170,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -668,7 +1196,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -694,7 +1222,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -720,7 +1248,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -746,7 +1274,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -772,7 +1300,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -798,7 +1326,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -824,7 +1352,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -850,7 +1378,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -876,7 +1404,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -902,7 +1430,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -928,7 +1456,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -954,7 +1482,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -980,7 +1508,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1006,7 +1534,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1032,7 +1560,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1058,7 +1586,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1084,7 +1612,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1110,7 +1638,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1136,7 +1664,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1162,7 +1690,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1188,7 +1716,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1214,7 +1742,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1240,7 +1768,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1266,7 +1794,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1292,7 +1820,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1318,7 +1846,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1344,7 +1872,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1370,7 +1898,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1396,7 +1924,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1422,7 +1950,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1448,7 +1976,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1474,7 +2002,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1500,7 +2028,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1526,7 +2054,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1552,7 +2080,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1578,7 +2106,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1604,7 +2132,7 @@
     "sourceIds": [
       "world_history_ref"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   }
 ]

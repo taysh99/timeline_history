@@ -5,7 +5,7 @@
     "type": "era",
     "name": "Văn Lang – Âu Lạc",
     "startYear": -700,
-    "endYear": -111,
+    "endYear": -112,
     "eraLabel": "",
     "grades": [
       "L6"
@@ -20,6 +20,14 @@
         {
           "title": "Hình thành nhà nước sơ khai",
           "detail": "Bối cảnh các cộng đồng cư dân phát triển và tổ chức xã hội ngày càng chặt chẽ."
+        },
+        {
+          "title": "Hình thành các cộng đồng cư dân và tổ chức xã hội sơ khai",
+          "detail": "Giai đoạn chuyển từ các cộng đồng làng xã sang tổ chức quyền lực sớm (khái quát)."
+        },
+        {
+          "title": "Phát triển trung tâm cư trú – phòng thủ sớm",
+          "detail": "Xuất hiện các công trình phòng thủ/định cư quy mô lớn (khái quát, khảo cổ học)."
         }
       ],
       "figures": [],
@@ -27,6 +35,14 @@
         {
           "title": "Nền tảng văn hóa bản địa",
           "detail": "Phong tục, tín ngưỡng và tổ chức cộng đồng tạo nền tảng cho các giai đoạn sau."
+        },
+        {
+          "title": "Văn hoá Đông Sơn (trống đồng, đồ đồng)",
+          "detail": "Dấu ấn nổi bật của kỹ nghệ luyện đúc và biểu tượng văn hoá tiền – sơ sử ở Việt Nam."
+        },
+        {
+          "title": "Nông nghiệp lúa nước và kỹ thuật thủy lợi sơ khai",
+          "detail": "Cơ sở kinh tế – xã hội quan trọng cho sự hình thành các cộng đồng ổn định."
         }
       ]
     },
@@ -34,7 +50,14 @@
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png?width=1100",
+      "caption": "Văn Lang – Âu Lạc (khái quát)",
+      "attribution": "BNTA246dnvn • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png"
+    }
   },
   {
     "id": "vn_bac_thuoc_1",
@@ -53,20 +76,49 @@
     ],
     "summary": "Giai đoạn chịu sự cai trị của nhà Hán, bộ máy quận huyện được thiết lập.",
     "content": {
-      "events": [],
-      "figures": [
+      "events": [
         {
-          "title": "Sĩ Nhiếp (137–226)",
-          "detail": "Thái thú Giao Chỉ thời Đông Hán; nhân vật có ghi chép trong sử Trung Hoa."
+          "title": "Nhà Hán thôn tính Nam Việt (111 TCN)",
+          "detail": "Bắt đầu giai đoạn trực trị và đồng hoá của phương Bắc."
+        },
+        {
+          "title": "Thiết lập hệ thống quận – huyện",
+          "detail": "Tổ chức hành chính theo mô hình Trung Hoa, tác động tới xã hội bản địa."
+        },
+        {
+          "title": "Chính sách đồng hoá và bóc lột của chính quyền đô hộ",
+          "detail": "Áp lực lao dịch, thuế khoá và thay đổi xã hội bản địa (khái quát)."
         }
       ],
-      "achievements": []
+      "figures": [
+        {
+          "title": "Hán Vũ Đế (156–87 TCN)",
+          "detail": "Hoàng đế nhà Hán; thời kỳ mở rộng và đặt nền quản trị quận–huyện ở khu vực phía Nam (khái quát)."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Giao lưu kỹ thuật – chữ viết – hành chính",
+          "detail": "Tác động kép: du nhập công cụ quản trị nhưng cũng gây áp lực đồng hoá."
+        },
+        {
+          "title": "Phát triển giao thông – thương mại khu vực",
+          "detail": "Tăng kết nối vùng Giao Châu với mạng lưới thương mại rộng hơn (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png?width=1100",
+      "caption": "Văn Lang – Âu Lạc (khái quát)",
+      "attribution": "BNTA246dnvn • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png"
+    }
   },
   {
     "id": "vn_hai_ba_trung",
@@ -89,6 +141,14 @@
         {
           "title": "Khởi nghĩa bùng nổ",
           "detail": "Phong trào lan rộng và thiết lập chính quyền tự chủ."
+        },
+        {
+          "title": "Khởi nghĩa Hai Bà Trưng (40)",
+          "detail": "Giành lại quyền tự chủ ở nhiều quận, thành lập chính quyền."
+        },
+        {
+          "title": "Nhà Hán đàn áp khởi nghĩa (43)",
+          "detail": "Khởi nghĩa thất bại, bước sang Bắc thuộc lần II."
         }
       ],
       "figures": [
@@ -101,13 +161,25 @@
           "detail": "Cùng lãnh đạo khởi nghĩa."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Biểu tượng tinh thần độc lập dân tộc",
+          "detail": "Khởi nghĩa trở thành mốc quan trọng trong truyền thống chống ngoại xâm."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png?width=1100",
+      "caption": "Văn Lang – Âu Lạc (khái quát)",
+      "attribution": "BNTA246dnvn • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png"
+    }
   },
   {
     "id": "vn_bac_thuoc_2",
@@ -126,15 +198,49 @@
     ],
     "summary": "Giai đoạn tiếp tục chịu sự đô hộ, xuất hiện nhiều cuộc đấu tranh của người Việt.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Khởi nghĩa Bà Triệu (248)",
+          "detail": "Phong trào chống đô hộ tiêu biểu thời Bắc thuộc."
+        },
+        {
+          "title": "Khởi nghĩa Lý Bí (542)",
+          "detail": "Phong trào chống đô hộ, dẫn tới thành lập nước Vạn Xuân (544)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Sĩ Nhiếp (137–226)",
+          "detail": "Quan cai trị Giao Châu; giai đoạn này gắn với phát triển Nho học và quản trị địa phương."
+        },
+        {
+          "title": "Bà Triệu (Triệu Thị Trinh, 225–248)",
+          "detail": "Lãnh đạo cuộc khởi nghĩa chống chính quyền đô hộ."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Củng cố bản sắc văn hoá Việt trong điều kiện đô hộ",
+          "detail": "Duy trì phong tục, làng xã và các hình thức tổ chức cộng đồng."
+        },
+        {
+          "title": "Củng cố lực lượng bản địa và khát vọng tự chủ",
+          "detail": "Nhiều cuộc nổi dậy tạo tiền đề cho nhà nước tự chủ sớm."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png?width=1100",
+      "caption": "Văn Lang – Âu Lạc (khái quát)",
+      "attribution": "BNTA246dnvn • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%E1%BA%A3n_%C4%91%E1%BB%93_V%C4%83n_Lang-_%C3%82u_Vi%E1%BB%87t_,Map_of_Van_Lang-Au_Lac.png"
+    }
   },
   {
     "id": "vn_van_xuan",
@@ -154,20 +260,49 @@
     ],
     "summary": "Nhà nước Vạn Xuân được dựng lên, khẳng định ý chí độc lập.",
     "content": {
-      "events": [],
-      "figures": [
+      "events": [
         {
-          "title": "Lý Nam Đế",
-          "detail": "Lãnh đạo lập nước Vạn Xuân."
+          "title": "Thành lập nước Vạn Xuân (544)",
+          "detail": "Bước tiến quan trọng của chính quyền tự chủ."
+        },
+        {
+          "title": "Kháng chiến chống nhà Lương",
+          "detail": "Tổ chức phòng thủ, chiến tranh du kích (khái quát)."
         }
       ],
-      "achievements": []
+      "figures": [
+        {
+          "title": "Lý Nam Đế (Lý Bí)",
+          "detail": "Dựng nước Vạn Xuân, xưng đế, khẳng định độc lập."
+        },
+        {
+          "title": "Triệu Quang Phục (Triệu Việt Vương)",
+          "detail": "Tiếp tục kháng chiến, củng cố lực lượng ở vùng đầm lầy – sông nước."
+        },
+        {
+          "title": "Lý Phật Tử",
+          "detail": "Giai đoạn cuối của nhà Tiền Lý – Vạn Xuân."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Hình thành mô hình nhà nước tự chủ sớm",
+          "detail": "Khẳng định khát vọng độc lập, đặt nền cho các triều đại sau."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_V%E1%BA%A1n_Xu%C3%A2n_Kingdom_during_Early_L%C3%BD_dynasty.png?width=1100",
+      "caption": "Vạn Xuân (544–602)",
+      "attribution": "I Love Triệu Đà • CC0 1.0 • Wikimedia Commons",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_V%E1%BA%A1n_Xu%C3%A2n_Kingdom_during_Early_L%C3%BD_dynasty.png"
+    }
   },
   {
     "id": "vn_bac_thuoc_3",
@@ -187,7 +322,16 @@
     ],
     "summary": "Thời kỳ đô hộ kéo dài cho đến khi giành lại tự chủ đầu thế kỷ X.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Khởi nghĩa Mai Thúc Loan (722)",
+          "detail": "Phong trào chống Đường quy mô lớn (khái quát)."
+        },
+        {
+          "title": "Họ Khúc giành quyền tự chủ (đầu thế kỷ X)",
+          "detail": "Bước chuyển từ đô hộ sang tự chủ."
+        }
+      ],
       "figures": [
         {
           "title": "Khúc Thừa Dụ (mất 907)",
@@ -196,15 +340,35 @@
         {
           "title": "Dương Đình Nghệ (mất 937)",
           "detail": "Tướng lĩnh, đặt nền cho chiến thắng Bạch Đằng 938."
+        },
+        {
+          "title": "Mai Thúc Loan (Mai Hắc Đế)",
+          "detail": "Lãnh đạo khởi nghĩa lớn chống nhà Đường."
+        },
+        {
+          "title": "Phùng Hưng",
+          "detail": "Lãnh đạo khởi nghĩa, giành quyền tự chủ cục bộ trong thời gian ngắn."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Củng cố nền tự chủ địa phương",
+          "detail": "Tăng quyền lực bản địa, suy yếu dần sự kiểm soát trực tiếp."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l6"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png?width=1100",
+      "caption": "Tĩnh Hải quân & giai đoạn chuyển tiếp (khái quát)",
+      "attribution": "TRMC • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png"
+    }
   },
   {
     "id": "vn_ngo",
@@ -227,21 +391,45 @@
         {
           "title": "Chiến thắng Bạch Đằng (938)",
           "detail": "Đánh bại quân Nam Hán, chấm dứt thời kỳ Bắc thuộc."
+        },
+        {
+          "title": "Bắt đầu thời kỳ phân liệt (tiền đề 12 sứ quân)",
+          "detail": "Cuối thời Ngô xuất hiện chia rẽ cát cứ."
         }
       ],
       "figures": [
         {
           "title": "Ngô Quyền (898–944)",
           "detail": "Lãnh đạo chiến thắng Bạch Đằng (938), mở đầu thời kỳ độc lập tự chủ lâu dài."
+        },
+        {
+          "title": "Dương Tam Kha",
+          "detail": "Nhân vật chính trị gây biến động trong triều Ngô."
+        },
+        {
+          "title": "Ngô Xương Văn",
+          "detail": "Cùng thời Ngô, giai đoạn nhiều biến động."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Khẳng định nền độc lập tự chủ",
+          "detail": "Đặt nền móng cho nhà nước phong kiến độc lập."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png?width=1100",
+      "caption": "Tĩnh Hải quân & giai đoạn chuyển tiếp (khái quát)",
+      "attribution": "TRMC • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png"
+    }
   },
   {
     "id": "vn_dinh",
@@ -249,7 +437,7 @@
     "type": "dynasty",
     "name": "Nhà Đinh",
     "startYear": 968,
-    "endYear": 980,
+    "endYear": 979,
     "eraLabel": "",
     "grades": [
       "L7"
@@ -260,20 +448,57 @@
     ],
     "summary": "Củng cố quốc gia độc lập, đặt nền tảng nhà nước phong kiến tập quyền.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Dẹp loạn 12 sứ quân (968)",
+          "detail": "Thống nhất đất nước sau thời kỳ phân liệt."
+        },
+        {
+          "title": "Đặt quốc hiệu Đại Cồ Việt",
+          "detail": "Củng cố vị thế quốc gia độc lập."
+        }
+      ],
       "figures": [
         {
           "title": "Đinh Bộ Lĩnh (924–979)",
           "detail": "Thống nhất cát cứ, lập nhà Đinh, đặt quốc hiệu Đại Cồ Việt."
+        },
+        {
+          "title": "Đinh Bộ Lĩnh (Đinh Tiên Hoàng)",
+          "detail": "Dẹp loạn 12 sứ quân, lập nhà Đinh."
+        },
+        {
+          "title": "Đinh Liễn",
+          "detail": "Thái tử, tham gia chính sự thời Đinh."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Củng cố bộ máy nhà nước trung ương tập quyền",
+          "detail": "Bước đầu xây dựng thiết chế chính trị độc lập."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "places": [
+      {
+        "name": "Hoa Lư (Ninh Bình)",
+        "lat": 20.2536,
+        "lng": 105.974,
+        "note": "Kinh đô thời Đinh – Tiền Lê"
+      }
+    ],
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png?width=1100",
+      "caption": "Tĩnh Hải quân & giai đoạn chuyển tiếp (khái quát)",
+      "attribution": "TRMC • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png"
+    }
   },
   {
     "id": "vn_tien_le",
@@ -281,7 +506,7 @@
     "type": "dynasty",
     "name": "Nhà Tiền Lê",
     "startYear": 980,
-    "endYear": 1009,
+    "endYear": 1008,
     "eraLabel": "",
     "grades": [
       "L7"
@@ -293,20 +518,45 @@
     ],
     "summary": "Tiếp tục củng cố độc lập và tổ chức quân sự, đối ngoại.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Kháng chiến chống Tống (981)",
+          "detail": "Bảo vệ độc lập, củng cố uy tín quốc gia."
+        }
+      ],
       "figures": [
         {
           "title": "Lê Hoàn (941–1005)",
           "detail": "Hoàng đế nhà Tiền Lê; củng cố quốc gia và đối phó ngoại xâm."
+        },
+        {
+          "title": "Lê Hoàn (Lê Đại Hành)",
+          "detail": "Lãnh đạo kháng chiến chống Tống (981), củng cố quốc gia."
+        },
+        {
+          "title": "Dương Vân Nga",
+          "detail": "Nhân vật chính trị nổi bật giai đoạn chuyển Đinh → Tiền Lê."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Củng cố ngoại giao và quân sự",
+          "detail": "Ổn định triều chính, duy trì độc lập."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png?width=1100",
+      "caption": "Tĩnh Hải quân & giai đoạn chuyển tiếp (khái quát)",
+      "attribution": "TRMC • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_T%C4%A9nh_H%E1%BA%A3i_qu%C3%A2n_and_early_years_of_Ng%C3%B4_dynasty.png"
+    }
   },
   {
     "id": "vn_ly",
@@ -328,8 +578,36 @@
     "content": {
       "events": [
         {
-          "title": "Dời đô ra Thăng Long (1010)",
-          "detail": "Tạo điều kiện phát triển lâu dài cho kinh đô và quốc gia."
+          "title": "Lý Thái Tổ dời đô ra Thăng Long",
+          "year": 1010,
+          "location": "Hoa Lư → Thăng Long (Hà Nội)",
+          "actors": ["Lý Thái Tổ", "Các quan đại thần nhà Lý"],
+          "detail": "Lý Thái Tổ quyết định dời đô từ Hoa Lư ra thành Đại La (sau gọi là Thăng Long) để khai phá vùng đất mới và củng cố quốc gia.",
+          "significance": "Thăng Long trở thành kinh đô của Việt Nam trong gần 1000 năm, mở đầu thời kỳ phát triển rực rỡ."
+        },
+        {
+          "title": "Lập Văn Miếu để tôn vinh Nho học",
+          "year": 1070,
+          "location": "Thăng Long",
+          "actors": ["Lý Thánh Tông", "Các quan đại thần"],
+          "detail": "Lý Thánh Tông cho xây Văn Miếu tại Thăng Long để thờ Khổng Tử và các bậc hiền triết, đặt nền móng cho hệ thống giáo dục Nho học.",
+          "significance": "Đánh dấu sự phát triển mạnh mẽ của nền giáo dục Việt Nam theo mô hình Trung Hoa."
+        },
+        {
+          "title": "Lập Quốc Tử Giám - trường đại học đầu tiên",
+          "year": 1076,
+          "location": "Thăng Long",
+          "actors": ["Lý Nhân Tông", "Tể tướng Tô Phủ"],
+          "detail": "Lý Nhân Tông cho thành lập Quốc Tử Giám do Tể tướng Tô Phủ phụ trách, đào tạo quan lại và nhân tài cho đất nước.",
+          "significance": "Quốc Tử Giám là trường đại học đầu tiên của Việt Nam, đào tạo hàng nghìn quan lại có học vấn."
+        },
+        {
+          "title": "Chiến thắng quân Tống xâm lược",
+          "year": 1077,
+          "location": "Biên giới Việt-Tống",
+          "actors": ["Lý Thường Kiệt", "Lý Nhân Tông"],
+          "detail": "Lý Thường Kiệt chỉ huy quân đội Việt Nam đánh bại cuộc xâm lược của nhà Tống do Quách Quỳ chỉ huy tại biên giới phía Bắc.",
+          "significance": "Củng cố độc lập dân tộc, khẳng định sức mạnh của nhà Lý, mở rộng lãnh thổ về phía Bắc."
         }
       ],
       "figures": [
@@ -344,9 +622,26 @@
         {
           "title": "Lý Nhân Tông (1066–1127)",
           "detail": "Triều đại dài; gắn với phát triển giáo dục và văn hóa."
+        },
+        {
+          "title": "Lý Thánh Tông",
+          "detail": "Củng cố quốc gia, đặt quốc hiệu Đại Việt."
+        },
+        {
+          "title": "Tô Hiến Thành",
+          "detail": "Danh thần, nổi bật về liêm chính và phụ chính."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Phát triển luật pháp và hành chính",
+          "detail": "Hoàn thiện thiết chế nhà nước, tăng cường quản trị."
+        },
+        {
+          "title": "Hình thành nền văn hoá – giáo dục Đại Việt",
+          "detail": "Đẩy mạnh giáo dục, tôn giáo và văn học."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
@@ -366,7 +661,14 @@
         "lng": 105.8356,
         "note": "Kiến trúc Phật giáo (thời Lý)"
       }
-    ]
+    ],
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_L%C3%BD_dynasty.png?width=1100",
+      "caption": "Nhà Lý (1009–1225)",
+      "attribution": "TRMC • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_L%C3%BD_dynasty.png"
+    }
   },
   {
     "id": "vn_tran",
@@ -374,7 +676,7 @@
     "type": "dynasty",
     "name": "Nhà Trần",
     "startYear": 1226,
-    "endYear": 1400,
+    "endYear": 1399,
     "eraLabel": "",
     "grades": [
       "L7"
@@ -386,7 +688,40 @@
     ],
     "summary": "Triều Trần nổi bật với các cuộc kháng chiến chống Nguyên – Mông và phát triển văn hóa.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Kháng chiến chống quân Nguyên-Mông lần thứ nhất",
+          "year": 1258,
+          "location": "Thăng Long và vùng đồng bằng Bắc Bộ",
+          "actors": ["Trần Thái Tông", "Trần Thánh Tông", "Trần Hưng Đạo"],
+          "detail": "Quân Nguyên-Mông do Thoát Hoan chỉ huy xâm lược Việt Nam. Vua Trần Thái Tông cùng các tướng lĩnh tổ chức kháng chiến kiên cường.",
+          "significance": "Thắng lợi đầu tiên chống quân Nguyên-Mông, khẳng định quyết tâm bảo vệ độc lập dân tộc."
+        },
+        {
+          "title": "Chiến thắng quân Nguyên-Mông lần thứ hai",
+          "year": 1285,
+          "location": "Vạn Kiếp, Nghệ An",
+          "actors": ["Trần Nhân Tông", "Trần Hưng Đạo", "Nguyễn Khoái"],
+          "detail": "Trần Hưng Đạo chỉ huy quân dân Việt Nam đánh bại quân Nguyên do Toa Đô chỉ huy tại chiến trường Vạn Kiếp.",
+          "significance": "Chiến thắng quyết định, buộc quân Nguyên phải rút lui, bảo vệ thành công độc lập."
+        },
+        {
+          "title": "Chiến thắng Bạch Đằng lịch sử",
+          "year": 1288,
+          "location": "Sông Bạch Đằng, Quảng Ninh",
+          "actors": ["Trần Hưng Đạo", "Nguyễn Khoái", "Vũ Hồn"],
+          "detail": "Trần Hưng Đạo sử dụng chiến thuật cọc gỗ trên sông Bạch Đằng, đánh chìm toàn bộ hạm đội Nguyên-Mông do Ô Mã Nhi chỉ huy.",
+          "significance": "Chiến thắng hoàn toàn, kết thúc cuộc chiến tranh Nguyên-Mông, bảo vệ độc lập dân tộc."
+        },
+        {
+          "title": "Hội nghị Diên Hồng quyết định kháng chiến",
+          "year": 1282,
+          "location": "Diên Hồng, Hưng Yên",
+          "actors": ["Trần Hưng Đạo", "Các tướng lĩnh nhà Trần"],
+          "detail": "Trần Hưng Đạo tổ chức hội nghị tại Diên Hồng, quyết định phương lược kháng chiến toàn dân chống quân Nguyên-Mông.",
+          "significance": "Tạo nên tinh thần đồng lòng quyết chiến, nền tảng cho các chiến thắng sau này."
+        }
+      ],
       "figures": [
         {
           "title": "Trần Hưng Đạo (1228–1300)",
@@ -399,15 +734,38 @@
         {
           "title": "Trần Thánh Tông (1240–1290)",
           "detail": "Vua thời Trần; góp phần tổ chức kháng chiến."
+        },
+        {
+          "title": "Trần Thái Tông",
+          "detail": "Vua đầu triều Trần, củng cố thể chế."
+        },
+        {
+          "title": "Trần Quang Khải",
+          "detail": "Danh tướng, góp phần trong kháng chiến."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Củng cố quốc phòng và nghệ thuật quân sự",
+          "detail": "Phát triển chiến lược phòng thủ, thủy chiến."
+        },
+        {
+          "title": "Phát triển văn hoá – Phật giáo Trúc Lâm",
+          "detail": "Đóng góp vào tư tưởng và văn hoá Đại Việt."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "./assets/maps/vn_vn_tran.svg",
+      "caption": "Nhà Trần (1226–1400)",
+      "attribution": "Placeholder map (replace with licensed historical map image).",
+      "license": "Custom placeholder"
+    }
   },
   {
     "id": "vn_ho",
@@ -415,7 +773,7 @@
     "type": "dynasty",
     "name": "Nhà Hồ",
     "startYear": 1400,
-    "endYear": 1407,
+    "endYear": 1406,
     "eraLabel": "",
     "grades": [
       "L7"
@@ -426,20 +784,45 @@
     ],
     "summary": "Giai đoạn cải cách ngắn, sau đó rơi vào Minh thuộc.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Cải cách thời Hồ (khái quát)",
+          "detail": "Cải tổ hành chính, tiền tệ, giáo dục (khái quát)."
+        },
+        {
+          "title": "Nhà Minh xâm lược (1407)",
+          "detail": "Nhà Hồ thất bại, đất nước rơi vào Minh thuộc."
+        }
+      ],
       "figures": [
         {
           "title": "Hồ Quý Ly (1336–1407)",
           "detail": "Nhân vật cải cách cuối Trần, lập nhà Hồ; nhiều chính sách cải cách."
+        },
+        {
+          "title": "Hồ Hán Thương",
+          "detail": "Vua nhà Hồ, giai đoạn biến động."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Một số cải cách nhà nước và kinh tế",
+          "detail": "Dù ngắn, có ảnh hưởng tới tư duy cải tổ."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_Jiaozhi_Province_of_the_Ming_Dynasty_(vi).png?width=1100",
+      "caption": "Giao Chỉ (Ming) – thời Minh thuộc (khái quát)",
+      "attribution": "Snow Peak • CC BY 4.0 • Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_Jiaozhi_Province_of_the_Ming_Dynasty_(vi).png"
+    }
   },
   {
     "id": "vn_minh_thuoc",
@@ -458,7 +841,16 @@
     ],
     "summary": "Thời kỳ bị nhà Minh đô hộ; phong trào đấu tranh giành độc lập bùng nổ.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Khởi nghĩa Lam Sơn (1418–1427)",
+          "detail": "Cuộc khởi nghĩa giành lại độc lập từ nhà Minh."
+        },
+        {
+          "title": "Chiến thắng quyết định và giành độc lập (1427)",
+          "detail": "Kết thúc Minh thuộc, mở ra triều Lê."
+        }
+      ],
       "figures": [
         {
           "title": "Lê Lợi (1385–1433)",
@@ -469,13 +861,25 @@
           "detail": "Mưu sĩ, tác gia; gắn với khởi nghĩa Lam Sơn và chính trị đầu Lê sơ."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Khẳng định ý chí độc lập và tư tưởng chính trị",
+          "detail": "Tư tưởng ‘nhân nghĩa’ và chính danh trong xây dựng quốc gia."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_the_Jiaozhi_Province_of_the_Ming_Dynasty_(vi).png?width=1100",
+      "caption": "Giao Chỉ (Ming) – thời Minh thuộc (khái quát)",
+      "attribution": "Snow Peak • CC BY 4.0 • Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_the_Jiaozhi_Province_of_the_Ming_Dynasty_(vi).png"
+    }
   },
   {
     "id": "vn_le_so",
@@ -495,7 +899,16 @@
     ],
     "summary": "Thời kỳ củng cố quốc gia, hoàn thiện luật pháp và bộ máy nhà nước.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Xây dựng nhà nước Hậu Lê",
+          "detail": "Tổ chức bộ máy hành chính, quân đội, luật pháp."
+        },
+        {
+          "title": "Ban hành Bộ luật Hồng Đức (thế kỷ XV)",
+          "detail": "Một trong những bộ luật tiêu biểu thời phong kiến Việt Nam."
+        }
+      ],
       "figures": [
         {
           "title": "Lê Thánh Tông (1442–1497)",
@@ -504,15 +917,38 @@
         {
           "title": "Thân Nhân Trung (1419–1499)",
           "detail": "Danh sĩ; gắn với văn hóa – giáo dục thời Lê sơ."
+        },
+        {
+          "title": "Lê Thái Tổ (Lê Lợi)",
+          "detail": "Khai sáng triều Lê, củng cố quốc gia sau chiến tranh."
+        },
+        {
+          "title": "Nguyễn Trãi",
+          "detail": "Nhà văn hoá, công thần, tác giả nhiều tác phẩm chính trị."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Pháp luật và giáo dục phát triển",
+          "detail": "Hoàn thiện chế độ khoa cử, phát triển Nho học."
+        },
+        {
+          "title": "Củng cố lãnh thổ và hành chính",
+          "detail": "Tăng cường quản trị, mở rộng ảnh hưởng."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "./assets/maps/vn_vn_le_so.svg",
+      "caption": "Lê sơ (1428–1527)",
+      "attribution": "Placeholder map (replace with licensed historical map image).",
+      "license": "Custom placeholder"
+    }
   },
   {
     "id": "vn_nam_bac_trieu",
@@ -531,20 +967,53 @@
     ],
     "summary": "Giai đoạn nội chiến và phân tranh quyền lực giữa các thế lực.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Xung đột Nam – Bắc triều (1527–1592)",
+          "detail": "Nội chiến kéo dài giữa Lê trung hưng và nhà Mạc."
+        }
+      ],
       "figures": [
         {
           "title": "Nguyễn Bỉnh Khiêm – Trạng Trình (1491–1585)",
           "detail": "Nhà giáo, nhà tư tưởng, danh sĩ thế kỷ XVI; gắn với bối cảnh Nam–Bắc triều và biến động chính trị."
+        },
+        {
+          "title": "Mạc Đăng Dung",
+          "detail": "Lập nhà Mạc, mở đầu cục diện Nam – Bắc triều."
+        },
+        {
+          "title": "Nguyễn Kim",
+          "detail": "Khôi phục nhà Lê, gây dựng thế lực."
+        },
+        {
+          "title": "Trịnh Kiểm",
+          "detail": "Nắm quyền thực tế triều Lê trung hưng."
+        },
+        {
+          "title": "Nguyễn Hoàng",
+          "detail": "Đặt nền cho thế lực chúa Nguyễn ở Đàng Trong."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hình thành cục diện chính trị phân quyền",
+          "detail": "Tạo tiền đề cho Trịnh – Nguyễn phân tranh sau này."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": true,
-    "notes": "Có thể chồng lấn với các tiểu giai đoạn theo triều/chúa."
+    "notes": "Có thể chồng lấn với các tiểu giai đoạn theo triều/chúa.",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkin,_annam,_and_cochin_china.jpg?width=1100",
+      "caption": "Bắc Kỳ – Trung Kỳ – Nam Kỳ (bản đồ cổ)",
+      "attribution": "US Federal Government work • Public Domain (US) • Wikimedia Commons",
+      "license": "Public Domain (US)",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tonkin,_annam,_and_cochin_china.jpg"
+    }
   },
   {
     "id": "vn_trinh_nguyen_phan_tranh",
@@ -565,7 +1034,16 @@
     ],
     "summary": "Đất nước bị chia cắt Đàng Ngoài – Đàng Trong; chiến sự kéo dài.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Chiến tranh Trịnh – Nguyễn (1627–1672)",
+          "detail": "Giai đoạn giao tranh lớn, sau đó cầm cự dài lâu."
+        },
+        {
+          "title": "Mở rộng Nam tiến (khái quát)",
+          "detail": "Mở rộng lãnh thổ về phía Nam trong nhiều thập kỷ."
+        }
+      ],
       "figures": [
         {
           "title": "Chúa Trịnh Tùng (1550–1623)",
@@ -574,9 +1052,34 @@
         {
           "title": "Chúa Nguyễn Hoàng (1525–1613)",
           "detail": "Người đặt nền cho thế lực họ Nguyễn ở Đàng Trong."
+        },
+        {
+          "title": "Hồ Xuân Hương (thế kỷ 18)",
+          "detail": "Nhà thơ nữ nổi tiếng; thơ lục bát tinh tế, phê phán xã hội phong kiến."
+        },
+        {
+          "title": "Trịnh Tùng",
+          "detail": "Củng cố thế lực họ Trịnh ở Đàng Ngoài."
+        },
+        {
+          "title": "Trịnh Tráng",
+          "detail": "Lãnh đạo trong giai đoạn chiến tranh Trịnh – Nguyễn."
+        },
+        {
+          "title": "Nguyễn Phúc Nguyên",
+          "detail": "Mở rộng thế lực chúa Nguyễn, phát triển thương mại."
+        },
+        {
+          "title": "Nguyễn Phúc Tần",
+          "detail": "Củng cố Đàng Trong, tiếp tục Nam tiến."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Phát triển thương mại và đô thị cảng",
+          "detail": "Hội An và giao thương quốc tế phát triển (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
@@ -602,20 +1105,53 @@
     ],
     "summary": "Phong trào khởi nghĩa và thay đổi chính quyền cuối thế kỷ XVIII.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Chiến thắng Rạch Gầm – Xoài Mút (1785)",
+          "detail": "Đánh bại quân Xiêm xâm lược."
+        },
+        {
+          "title": "Chiến thắng Ngọc Hồi – Đống Đa (1789)",
+          "detail": "Đánh bại quân Thanh, giải phóng Thăng Long."
+        }
+      ],
       "figures": [
         {
           "title": "Nguyễn Huệ – Quang Trung (1753–1792)",
           "detail": "Lãnh tụ Tây Sơn; nổi bật với chiến thắng Ngọc Hồi–Đống Đa (1789)."
+        },
+        {
+          "title": "Nguyễn Huệ (Quang Trung)",
+          "detail": "Lãnh đạo quân sự – chính trị, đánh bại Xiêm và Thanh."
+        },
+        {
+          "title": "Nguyễn Nhạc",
+          "detail": "Một trong ba anh em Tây Sơn, giữ vai trò khởi phát."
+        },
+        {
+          "title": "Nguyễn Lữ",
+          "detail": "Tham gia phong trào Tây Sơn."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Cải cách và chấn hưng đất nước (khái quát)",
+          "detail": "Nỗ lực thống nhất và cải tổ sau nội chiến kéo dài."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l7"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_T%C3%A2y_S%C6%A1n_dynasty_png.png?width=1100",
+      "caption": "Tây Sơn (1771–1802)",
+      "attribution": "BNTA246vn • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Map_of_T%C3%A2y_S%C6%A1n_dynasty_png.png"
+    }
   },
   {
     "id": "vn_nguyen",
@@ -636,11 +1172,24 @@
     ],
     "summary": "Triều đại cuối cùng của Việt Nam; giai đoạn biến động trước và trong thời Pháp xâm lược.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Thống nhất đất nước (1802)",
+          "detail": "Kết thúc thời kỳ phân liệt, lập triều Nguyễn."
+        },
+        {
+          "title": "Cải cách hành chính thời Minh Mạng",
+          "detail": "Tổ chức lại đơn vị hành chính, tăng cường quản trị."
+        }
+      ],
       "figures": [
         {
           "title": "Gia Long – Nguyễn Ánh (1762–1820)",
           "detail": "Người lập nhà Nguyễn (1802), thống nhất đất nước sau nội chiến."
+        },
+        {
+          "title": "Nguyễn Du (1766–1820)",
+          "detail": "Nhà thơ lớn nhất Việt Nam; tác giả Truyện Kiều, đại diện cho đỉnh cao văn học Việt Nam."
         },
         {
           "title": "Minh Mạng (1791–1841)",
@@ -649,16 +1198,52 @@
         {
           "title": "Tự Đức (1829–1883)",
           "detail": "Vua thời kỳ Pháp bắt đầu xâm lược; bối cảnh nhiều biến động."
+        },
+        {
+          "title": "Gia Long",
+          "detail": "Thống nhất đất nước, lập triều Nguyễn."
+        },
+        {
+          "title": "Nguyễn Tri Phương",
+          "detail": "Danh tướng chống Pháp."
+        },
+        {
+          "title": "Hoàng Diệu",
+          "detail": "Tổng đốc Hà Nôi, gắn với sự kiện 1882."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hoàn thiện hệ thống hành chính trung ương",
+          "detail": "Củng cố nhà nước phong kiến tập quyền."
+        },
+        {
+          "title": "Di sản kiến trúc – đô thị Huế",
+          "detail": "Kinh thành Huế và hệ thống công trình triều Nguyễn."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l8",
       "sgk_vn_l9"
     ],
     "overlapAllowed": true,
-    "notes": "Thực tế có giai đoạn thuộc Pháp chồng lấn theo quyền lực."
+    "notes": "Thực tế có giai đoạn thuộc Pháp chồng lấn theo quyền lực.",
+    "places": [
+      {
+        "name": "Kinh thành Huế",
+        "lat": 16.4637,
+        "lng": 107.5909,
+        "note": "Trung tâm triều Nguyễn"
+      }
+    ],
+    "map": {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Nguyen_Dynasty,_administrative_divisions_map_(1838).svg?width=1100",
+      "caption": "Nguyễn (bản đồ hành chính 1838)",
+      "attribution": "Ptncx • CC BY-SA 4.0 • Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nguyen_Dynasty,_administrative_divisions_map_(1838).svg"
+    }
   },
   {
     "id": "vn_phap_xam_luoc",
@@ -678,7 +1263,20 @@
     ],
     "summary": "Giai đoạn quân Pháp tiến hành xâm lược, triều đình ký các hiệp ước dẫn tới mất chủ quyền.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Liên quân Pháp – Tây Ban Nha tấn công Đà Nẵng (1858)",
+          "detail": "Mở đầu quá trình xâm lược Việt Nam."
+        },
+        {
+          "title": "Hiệp ước Nhâm Tuất (1862)",
+          "detail": "Nhượng một phần lãnh thổ Nam Kỳ, mở cửa thương mại (khái quát)."
+        },
+        {
+          "title": "Pháp tấn công Bắc Kỳ (1873, 1882)",
+          "detail": "Gia tăng kiểm soát, dẫn tới đặt ách thống trị."
+        }
+      ],
       "figures": [
         {
           "title": "Nguyễn Tri Phương (1800–1873)",
@@ -687,15 +1285,42 @@
         {
           "title": "Hoàng Diệu (1829–1882)",
           "detail": "Tổng đốc Hà Ninh; gắn với cuộc phòng thủ Hà Nội."
+        },
+        {
+          "title": "Trương Định",
+          "detail": "Lãnh đạo kháng chiến chống Pháp ở Nam Kỳ."
+        },
+        {
+          "title": "Nguyễn Trung Trực",
+          "detail": "Lãnh đạo khởi nghĩa, tiêu biểu phong trào chống Pháp."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hình thành phong trào kháng chiến chống xâm lược",
+          "detail": "Các phong trào địa phương và nghĩa quân lan rộng."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l8"
     ],
     "overlapAllowed": true,
-    "notes": ""
+    "notes": "",
+    "places": [
+      {
+        "name": "Đà Nẵng",
+        "lat": 16.0544,
+        "lng": 108.2022,
+        "note": "1858 mở đầu xâm lược"
+      },
+      {
+        "name": "Gia Định (TP.HCM)",
+        "lat": 10.8231,
+        "lng": 106.6297,
+        "note": "Trọng điểm Nam Kỳ"
+      }
+    ]
   },
   {
     "id": "vn_thuoc_phap",
@@ -716,7 +1341,20 @@
     ],
     "summary": "Giai đoạn thuộc địa với biến đổi kinh tế – xã hội và các phong trào yêu nước.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Phong trào Cần Vương (1885–1896)",
+          "detail": "Phong trào chống Pháp dưới danh nghĩa ‘phò vua cứu nước’."
+        },
+        {
+          "title": "Phong trào Đông Du (đầu thế kỷ XX)",
+          "detail": "Đưa thanh niên sang Nhật học tập (khái quát)."
+        },
+        {
+          "title": "Xô Viết Nghệ Tĩnh (1930–1931)",
+          "detail": "Cao trào cách mạng ở Nghệ An – Hà Tĩnh."
+        }
+      ],
       "figures": [
         {
           "title": "Phan Bội Châu (1867–1940)",
@@ -729,9 +1367,26 @@
         {
           "title": "Nguyễn Ái Quốc – Hồ Chí Minh (1890–1969)",
           "detail": "Lãnh tụ cách mạng; hoạt động giải phóng dân tộc đầu thế kỷ XX."
+        },
+        {
+          "title": "Bà mẹ Việt Nam anh hùng",
+          "detail": "Biểu tượng của người mẹ Việt Nam; đại diện cho sự hy sinh và cống hiến trong các cuộc chiến tranh giải phóng."
+        },
+        {
+          "title": "Tôn Thất Thuyết",
+          "detail": "Gắn với phong trào Cần Vương."
+        },
+        {
+          "title": "Nguyễn Ái Quốc (Hồ Chí Minh)",
+          "detail": "Tìm đường cứu nước, chuẩn bị cho phong trào cách mạng hiện đại."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Hình thành lực lượng chính trị – xã hội hiện đại",
+          "detail": "Báo chí, giáo dục mới, các tổ chức và phong trào yêu nước."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l8",
@@ -756,20 +1411,48 @@
     ],
     "summary": "Sự kiện giành chính quyền và khai sinh nhà nước Việt Nam mới năm 1945.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Cách mạng Tháng Tám (1945)",
+          "detail": "Giành chính quyền trên cả nước."
+        },
+        {
+          "title": "Tuyên ngôn Độc lập (2/9/1945)",
+          "detail": "Khai sinh nước Việt Nam Dân chủ Cộng hòa."
+        }
+      ],
       "figures": [
         {
           "title": "Hồ Chí Minh (1890–1969)",
           "detail": "Lãnh đạo phong trào độc lập; gắn với Tuyên ngôn Độc lập 1945."
+        },
+        {
+          "title": "Võ Nguyên Giáp",
+          "detail": "Lãnh đạo quân sự, tổ chức lực lượng vũ trang cách mạng."
+        },
+        {
+          "title": "Trường Chinh",
+          "detail": "Lãnh đạo chính trị, đóng góp đường lối."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Thành lập nhà nước dân chủ nhân dân",
+          "detail": "Bước ngoặt lịch sử hiện đại Việt Nam."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "./assets/maps/vn_vn_cach_mang_1945.svg",
+      "caption": "Cách mạng Tháng Tám và Tuyên ngôn Độc lập (1945–1945)",
+      "attribution": "Placeholder map (replace with licensed historical map image).",
+      "license": "Custom placeholder"
+    }
   },
   {
     "id": "vn_khang_chien_chong_phap",
@@ -789,14 +1472,44 @@
     ],
     "summary": "Cuộc kháng chiến kéo dài kết thúc với các hiệp định năm 1954.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Toàn quốc kháng chiến (12/1946)",
+          "detail": "Bước vào cuộc kháng chiến lâu dài chống Pháp."
+        },
+        {
+          "title": "Chiến dịch Biên giới (1950)",
+          "detail": "Mở thông liên lạc quốc tế, thay đổi cục diện."
+        },
+        {
+          "title": "Chiến thắng Điện Biên Phủ (1954)",
+          "detail": "Kết thúc chiến tranh, dẫn tới Hiệp định Genève."
+        },
+        {
+          "title": "Hiệp định Genève (1954)",
+          "detail": "Chấm dứt chiến tranh Đông Dương, tạm thời chia cắt Việt Nam."
+        }
+      ],
       "figures": [
         {
           "title": "Võ Nguyên Giáp (1911–2013)",
           "detail": "Chỉ huy quân sự; gắn với chiến dịch Điện Biên Phủ."
+        },
+        {
+          "title": "Hồ Chí Minh",
+          "detail": "Lãnh đạo kháng chiến và xây dựng nhà nước."
+        },
+        {
+          "title": "Phạm Văn Đồng",
+          "detail": "Ngoại giao, tham gia Hội nghị Genève."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Chiến thắng quyết định của chiến tranh nhân dân",
+          "detail": "Tạo tiền đề cho các giai đoạn tiếp theo."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
@@ -822,9 +1535,32 @@
     ],
     "summary": "Bối cảnh đất nước bị chia cắt; xung đột và đối đầu kéo dài.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Tạm thời chia cắt hai miền (1954)",
+          "detail": "Vĩ tuyến 17 theo Hiệp định Genève (khái quát)."
+        },
+        {
+          "title": "Xây dựng hai mô hình chính trị – kinh tế ở hai miền",
+          "detail": "Miền Bắc xây dựng CNXH; miền Nam chịu tác động chiến tranh (khái quát)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Ngô Đình Diệm",
+          "detail": "Lãnh đạo chính quyền Việt Nam Cộng hòa giai đoạn đầu."
+        },
+        {
+          "title": "Lê Duẩn",
+          "detail": "Lãnh đạo chính trị ở miền Bắc (giai đoạn sau 1954)."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Hình thành nền tảng cho giai đoạn thống nhất",
+          "detail": "Các chính sách và tổ chức xã hội – kinh tế khác nhau (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
@@ -849,7 +1585,20 @@
     ],
     "summary": "Cuộc chiến tranh kết thúc năm 1975, dẫn đến thống nhất đất nước.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Tổng tiến công Tết Mậu Thân (1968)",
+          "detail": "Tác động lớn tới cục diện chiến tranh."
+        },
+        {
+          "title": "Hiệp định Paris (1973)",
+          "detail": "Mỹ rút quân, thay đổi tương quan lực lượng."
+        },
+        {
+          "title": "Chiến dịch Hồ Chí Minh (1975)",
+          "detail": "Giải phóng miền Nam, thống nhất đất nước."
+        }
+      ],
       "figures": [
         {
           "title": "Võ Nguyên Giáp (1911–2013)",
@@ -860,7 +1609,12 @@
           "detail": "Nhà lãnh đạo chính trị nổi bật trong giai đoạn 1954–1975."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Thống nhất đất nước",
+          "detail": "Kết thúc chiến tranh, mở ra giai đoạn mới."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
@@ -886,9 +1640,32 @@
     ],
     "summary": "Giai đoạn sau thống nhất, tập trung tái thiết và ổn định.",
     "content": {
-      "events": [],
-      "figures": [],
-      "achievements": []
+      "events": [
+        {
+          "title": "Tổng tuyển cử thống nhất (1976)",
+          "detail": "Thống nhất về mặt nhà nước (khái quát)."
+        },
+        {
+          "title": "Khắc phục hậu quả chiến tranh",
+          "detail": "Tái thiết kinh tế – xã hội (khái quát)."
+        }
+      ],
+      "figures": [
+        {
+          "title": "Lê Duẩn",
+          "detail": "Lãnh đạo giai đoạn sau thống nhất."
+        },
+        {
+          "title": "Phạm Văn Đồng",
+          "detail": "Vai trò điều hành và đối ngoại."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Củng cố hệ thống quản lý nhà nước thống nhất",
+          "detail": "Xây dựng thể chế và bộ máy trên phạm vi cả nước."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
@@ -915,20 +1692,52 @@
     ],
     "summary": "Giai đoạn cải cách kinh tế – xã hội, hội nhập quốc tế.",
     "content": {
-      "events": [],
+      "events": [
+        {
+          "title": "Đại hội VI (1986) – Khởi xướng Đổi mới",
+          "detail": "Chuyển đổi mô hình kinh tế, mở rộng hội nhập."
+        },
+        {
+          "title": "Gia nhập ASEAN (1995)",
+          "detail": "Bước tiến quan trọng trong hội nhập khu vực."
+        },
+        {
+          "title": "Gia nhập WTO (2007)",
+          "detail": "Mở rộng hội nhập kinh tế toàn cầu."
+        }
+      ],
       "figures": [
         {
           "title": "Nguyễn Văn Linh (1915–1998)",
           "detail": "Tổng Bí thư gắn với giai đoạn khởi xướng Đổi mới (từ 1986)."
+        },
+        {
+          "title": "Võ Văn Kiệt",
+          "detail": "Đóng góp cho cải cách kinh tế và hội nhập."
+        },
+        {
+          "title": "Đỗ Mười",
+          "detail": "Lãnh đạo giai đoạn đầu Đổi mới."
         }
       ],
-      "achievements": []
+      "achievements": [
+        {
+          "title": "Tăng trưởng kinh tế và hội nhập quốc tế",
+          "detail": "Chuyển dịch cơ cấu, phát triển thị trường và hội nhập (khái quát)."
+        }
+      ]
     },
     "sourceIds": [
       "sgk_vn_l9"
     ],
     "overlapAllowed": false,
-    "notes": ""
+    "notes": "",
+    "map": {
+      "src": "./assets/maps/vn_vn_doi_moi.svg",
+      "caption": "Đổi mới (1986–2025)",
+      "attribution": "Placeholder map (replace with licensed historical map image).",
+      "license": "Custom placeholder"
+    }
   },
   {
     "id": "vn_todo_027",
@@ -953,7 +1762,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -979,7 +1788,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1005,7 +1814,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1031,7 +1840,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1057,7 +1866,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1083,7 +1892,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1109,7 +1918,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1135,7 +1944,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1161,7 +1970,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1187,7 +1996,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1213,7 +2022,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1239,7 +2048,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1265,7 +2074,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1291,7 +2100,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1317,7 +2126,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1343,7 +2152,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1369,7 +2178,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1395,7 +2204,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1421,7 +2230,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1447,7 +2256,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1473,7 +2282,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1499,7 +2308,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1525,7 +2334,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1551,7 +2360,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1577,7 +2386,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1603,7 +2412,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1629,7 +2438,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1655,7 +2464,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   },
   {
@@ -1681,7 +2490,7 @@
     "sourceIds": [
       "sgk_vn_l7"
     ],
-    "overlapAllowed": false,
+    "overlapAllowed": true,
     "notes": "PLACEHOLDER_TODO"
   }
 ]

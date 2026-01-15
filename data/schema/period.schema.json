@@ -104,7 +104,7 @@
         "events": {
           "type": "array",
           "items": {
-            "$ref": "#/$defs/textItem"
+            "$ref": "#/$defs/eventItem"
           }
         },
         "figures": {
@@ -155,6 +155,51 @@
           "type": "string",
           "minLength": 5,
           "maxLength": 800
+        }
+      },
+      "additionalProperties": false
+    },
+    "eventItem": {
+      "type": "object",
+      "required": [
+        "title",
+        "detail"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 120
+        },
+        "year": {
+          "type": "integer",
+          "minimum": -3000,
+          "maximum": 3000,
+          "description": "Năm diễn ra sự kiện"
+        },
+        "location": {
+          "type": "string",
+          "maxLength": 200,
+          "description": "Địa điểm diễn ra sự kiện"
+        },
+        "actors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "description": "Các nhân vật tham gia chính"
+        },
+        "detail": {
+          "type": "string",
+          "minLength": 10,
+          "maxLength": 1000,
+          "description": "Mô tả chi tiết sự kiện theo format: Ai làm gì với ai ở đâu"
+        },
+        "significance": {
+          "type": "string",
+          "maxLength": 300,
+          "description": "Ý nghĩa lịch sử của sự kiện"
         }
       },
       "additionalProperties": false
