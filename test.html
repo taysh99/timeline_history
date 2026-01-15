@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Test XMLHttpRequest</title>
+</head>
+<body>
+    <h1>Test XMLHttpRequest</h1>
+    <div id="result"></div>
+
+    <script>
+        async function loadJson(path) {
+            try {
+                const response = await fetch(path);
+                if (!response.ok) {
+                    throw new Error("HTTP " + response.status + ": " + response.statusText);
+                }
+                const text = await response.text();
+                const data = JSON.parse(text);
+                return data;
+            } catch (error) {
+                console.error("Error loading " + path + ":", error);
+                throw new Error("Không tải được JSON từ: " + path + " - " + error.message);
+            }
+        }
+
+        window.onload = async function() {
+            const result = document.getElementById('result');
+            result.innerHTML = 'Đang tải...';
+
+            try {
+                const data = await loadJson('./data/vietnam/periods.json');
+                result.innerHTML = 'Thành công! Đã tải được ' + data.length + ' periods từ Việt Nam';
+            } catch (error) {
+                result.innerHTML = 'Lỗi: ' + error.message;
+            }
+        };
+    </script>
+</body>
+</html>

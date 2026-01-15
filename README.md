@@ -7,6 +7,26 @@ This starter gives you:
 - Validator script: `scripts/validate-data.js`
 - Safe AI drafting workflow: `docs/ai-pipeline.md`
 
+## Cách chạy ứng dụng
+
+### Cách 1: Sử dụng server HTTP (khuyên dùng)
+```bash
+# Nếu có Python
+python -m http.server 8080
+
+# Nếu có Node.js
+npx serve . -p 8080
+```
+
+Sau đó mở: http://localhost:8080/app.html
+
+### Cách 2: Mở trực tiếp trong browser (có thể cần tắt CORS)
+- Chrome: Mở với flag `--disable-web-security --user-data-dir="C:\chrome-dev"`
+- Firefox: Trong about:config, set `security.fileuri.strict_origin_policy` thành false
+
+### Cách 3: Sử dụng extension browser
+Cài extension "Allow CORS" hoặc "CORS Unblock" để bypass CORS restrictions.
+
 ## Quick validation
 Requires Node.js (for the validator script):
     node scripts/validate-data.js

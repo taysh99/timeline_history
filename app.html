@@ -177,6 +177,7 @@ function periodMatchesYear(p, year){
   return p && Number.isInteger(p.startYear) && Number.isInteger(p.endYear) && year >= p.startYear && year <= p.endYear;
 }
 
+
 function periodHasGrades(p, selectedGrades){
   const g = safeArr(p && p.grades);
   if (selectedGrades.size === 0) return true;
@@ -659,9 +660,18 @@ function HistoricalMapPanel({ year, vnPeriods, cnPeriods }){
 }
 
 async function loadJson(path) {
-  const res = await fetch(path);
-  if (!res.ok) throw new Error("Không đọc được: " + path + " (HTTP " + res.status + ")");
-  return await res.json();
+  try {
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status + ": " + response.statusText);
+    }
+    const text = await response.text();
+    const data = JSON.parse(text);
+    return data;
+  } catch (error) {
+    console.error("Error loading " + path + ":", error);
+    throw new Error("Không tải được JSON từ: " + path + " - " + error.message);
+  }
 }
 
 function App(){
@@ -676,17 +686,29 @@ function App(){
   const [hideTodos, setHideTodos] = React.useState(true);
   const [selectedGrades, setSelectedGrades] = React.useState(new Set());
 
+  const handleYearChange = (e) => {
+    const val = parseInt(e.target.value, 10);
+    if (!isNaN(val) && val >= -700 && val <= 2025) {
+      setYear(val);
+    }
+  };
+
   React.useEffect(() => {
     (async () => {
       setLoading(true);
-      try{
-        const vnData = await loadJson("./data/vietnam/periods.json");
-        const cnData = await loadJson("./data/china/periods.json");
+      try {
+        const [vnData, cnData] = await Promise.all([
+          loadJson("./data/vietnam/periods.json"),
+          loadJson("./data/china/periods.json")
+        ]);
         for (const p of vnData) p.__searchText = mkSearchText(p);
         for (const p of cnData) p.__searchText = mkSearchText(p);
         setVn(vnData); setCn(cnData);
-      } catch(e){ setErr(String(e && e.message ? e.message : e)); }
-      finally { setLoading(false); }
+      } catch (e) {
+        setErr(String(e && e.message ? e.message : e));
+      } finally {
+        setLoading(false);
+      }
     })();
   }, []);
 
@@ -770,6 +792,11 @@ function App(){
             onChange={(e) => setYear(parseInt(e.target.value, 10))}
             style={{ width:"100%", marginTop: 10 }}
           />
+
+          <div style={{marginTop: "12px"}}>
+            <label className="label">Nhập năm:</label>
+            <input type="number" min="-700" max="2025" value={year} onChange={function(e) { const v = parseInt(e.target.value); if (!isNaN(v) && v >= -700 && v <= 2025) setYear(v); }} className="input" style={{width: '100px', textAlign: 'center'}} placeholder="Năm" />
+          </div>
 
           {err ? (<div className="warn" style={{ marginTop: 10 }}>{err}</div>) : null}
           <div className="hr"></div>
